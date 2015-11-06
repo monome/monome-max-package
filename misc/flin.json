@@ -1,0 +1,73 @@
+{
+	"pattrstorage" : 	{
+		"name" : "flin",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bpm" : [ 96.0 ],
+					"div" : [ 8 ],
+					"midiport" : [ 3 ],
+					"offset" : [ 60 ],
+					"on" : [  ],
+					"output-mode" : [  ],
+					"live.gain~" : [ 1.791111 ],
+					"length" : [ 32 ],
+					"velocity" : [ 101 ],
+					"flin-note::0flin-note" : [ 2 ],
+					"flin-note[1]::1flin-note" : [ 4 ],
+					"flin-note[2]::2flin-note" : [ 5 ],
+					"flin-note[3]::3flin-note" : [ 7 ],
+					"flin-note[4]::4flin-note" : [ 9 ],
+					"flin-note[5]::5flin-note" : [ 11 ],
+					"flin-note[6]::6flin-note" : [ 12 ],
+					"flin-note[7]::7flin-note" : [ 14 ],
+					"flin-note[8]::8flin-note" : [ 16 ],
+					"flin-note[9]::9flin-note" : [ 17 ],
+					"flin-note[10]::10flin-note" : [ 19 ],
+					"flin-note[11]::11flin-note" : [ 21 ],
+					"flin-note[12]::12flin-note" : [ 23 ],
+					"flin-note[13]::13flin-note" : [ 24 ],
+					"flin-note[14]::14flin-note" : [ 26 ],
+					"flin-note[15]::15flin-note" : [ 28 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"bpm" : [ 90.0 ],
+					"div" : [ 8 ],
+					"midiport" : [ 0 ],
+					"offset" : [ 48 ],
+					"on" : [  ],
+					"output-mode" : [  ],
+					"live.gain~" : [  ],
+					"length" : [  ],
+					"velocity" : [  ],
+					"flin-note::0flin-note" : [  ],
+					"flin-note[1]::1flin-note" : [  ],
+					"flin-note[2]::2flin-note" : [  ],
+					"flin-note[3]::3flin-note" : [  ],
+					"flin-note[4]::4flin-note" : [  ],
+					"flin-note[5]::5flin-note" : [  ],
+					"flin-note[6]::6flin-note" : [  ],
+					"flin-note[7]::7flin-note" : [  ],
+					"flin-note[8]::8flin-note" : [  ],
+					"flin-note[9]::9flin-note" : [  ],
+					"flin-note[10]::10flin-note" : [  ],
+					"flin-note[11]::11flin-note" : [  ],
+					"flin-note[12]::12flin-note" : [  ],
+					"flin-note[13]::13flin-note" : [  ],
+					"flin-note[14]::14flin-note" : [  ],
+					"flin-note[15]::15flin-note" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
