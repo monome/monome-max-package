@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 283.0, 121.0, 256.0, 256.0 ],
+		"rect" : [ 283.0, 173.0, 256.0, 256.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 0.0, 0.0, 256.0, 256.0 ],
-					"pic" : "/Users/tehn/Work/monome-max-package/misc/monome.jpg"
+					"pic" : "Local:/Users/tehn/Work/monome-max-package/media/monome.jpg"
 				}
 
 			}
@@ -70,7 +70,7 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "monome.jpg",
-				"bootpath" : "~/Work/monome-max-package/misc",
+				"bootpath" : "~/Work/monome-max-package/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
