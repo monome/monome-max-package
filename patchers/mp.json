@@ -1,0 +1,55 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mp",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bpm" : [ 96.0 ],
+					"div" : [ 32 ],
+					"live.gain~" : [ 1.791111 ],
+					"midiport" : [ 0 ],
+					"offset" : [ 60 ],
+					"on" : [ 1 ],
+					"output-mode" : [ 0 ],
+					"velocity" : [ 101 ],
+					"n1::0flin-note" : [ 7 ],
+					"n2::1flin-note" : [ 12 ],
+					"n3::2flin-note" : [ 14 ],
+					"n4::3flin-note" : [ 16 ],
+					"n5::4flin-note" : [ 19 ],
+					"n6::5flin-note" : [ 23 ],
+					"n7::6flin-note" : [ 26 ],
+					"n8::7flin-note" : [ 29 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"bpm" : [ 96.0 ],
+					"div" : [ 32 ],
+					"live.gain~" : [ 1.791111 ],
+					"midiport" : [ 0 ],
+					"offset" : [ 60 ],
+					"on" : [ 1 ],
+					"output-mode" : [ 0 ],
+					"velocity" : [ 101 ],
+					"n1::0flin-note" : [ 9 ],
+					"n2::1flin-note" : [ 12 ],
+					"n3::2flin-note" : [ 14 ],
+					"n4::3flin-note" : [ 16 ],
+					"n5::4flin-note" : [ 19 ],
+					"n6::5flin-note" : [ 23 ],
+					"n7::6flin-note" : [ 26 ],
+					"n8::7flin-note" : [ 28 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
