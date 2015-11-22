@@ -38,6 +38,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 183.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 71.0, 181.0, 97.0, 20.0 ],
+					"style" : "",
+					"text" : "reset counts"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 246.0, 308.0, 47.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 181.0, 47.0, 22.0 ],
+					"style" : "",
+					"text" : "reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -906,6 +935,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "mp.json",
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -938,14 +968,14 @@
 						"live.gain~" : [ 1.791111 ],
 						"midiport" : [ 0 ],
 						"offset" : [ 60 ],
-						"on" : [ 0 ],
+						"on" : [ 1 ],
 						"output-mode" : [ 0 ],
 						"velocity" : [ 101 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u216001100"
+					"varname" : "u629000463"
 				}
 
 			}
@@ -1965,6 +1995,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2422,6 +2461,12 @@
 			}
 , 			{
 				"name" : "mp-note.maxpat",
+				"bootpath" : "~/Work/monome-max-package/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.json",
 				"bootpath" : "~/Work/monome-max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1

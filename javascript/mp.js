@@ -156,8 +156,10 @@ function key(x, y, z) {
 
 		if(kcount == 1 && z == 1)
 			mode = 1; 
-		else if(kcount == 0)
+		else if(kcount == 0) {
 			mode = 0;
+			scount[y] = 0;
+		}
 
 		if(z == 1 && mode == 1) {
 			edit_row = y;
@@ -253,16 +255,15 @@ function next() {
 				    	count[rule_dests[i]] = min[rule_dests[i]];
 				    }
 				    else if(rules[i] == 5) {  // rnd
-				    	count[rule_dests[i]] = 
-				    	(rnd() % (max[rule_dests[i]] - min[rule_dests[i]] + 1)) + min[rule_dests[i]];
+				    	count[rule_dests[i]] = Math.floor(Math.random() * (max[rule_dests[i]] - min[rule_dests[i]] + 1)) + min[rule_dests[i]];
 
 				      // print_dbg("\r\n RANDOM: ");
 				      // print_dbg_hex(count[rule_dests[i]]);
 				      // print_dbg_hex(rnd() % 11);
 				    }
 				    else if(rules[i] == 6) {  // pole
-				    	if(abs(count[rule_dests[i]] - min[rule_dests[i]]) < 
-				    		abs(count[rule_dests[i]] - max[rule_dests[i]]) ) {
+				    	if(Math.abs(count[rule_dests[i]] - min[rule_dests[i]]) < 
+				    		Math.abs(count[rule_dests[i]] - max[rule_dests[i]]) ) {
 				    		count[rule_dests[i]] = max[rule_dests[i]];
 				    	}
 				    	else {
@@ -313,4 +314,11 @@ function next() {
 			clear[i] = 0;
 		}
  	}
+}
+
+function reset() {
+	for(n=0;n<8;n++) {
+		position[n] = count[n];
+		tick[n] = speed[n];
+	}
 }
