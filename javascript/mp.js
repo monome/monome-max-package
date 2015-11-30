@@ -33,12 +33,12 @@ var trig_dests = new Array(0,0,0,0,0,0,0,0);
 var rules = new Array(0,0,0,0,0,0,0,0);
 var rule_dests = new Array(0,1,2,3,4,5,6,7);
 
-var count = new Array(2,3,4,5,6,7,8,9);
-var position = new Array(2,3,4,5,6,7,8,9);
-var speed = new Array(4,4,4,4,4,4,4,4);
-var tick = new Array(4,4,4,4,4,4,4,4);
-var min = new Array(2,3,4,5,6,7,8,9);
-var max = new Array(2,3,4,5,6,7,8,9);
+var count = new Array(7,7,7,7,7,7,7,7);
+var position = new Array(3,-1,-1,-1,-1,-1,-1,-1);
+var speed = new Array(0,0,0,0,0,0,0,0);
+var tick = new Array(0,0,0,0,0,0,0,0);
+var min = new Array(7,7,7,7,7,7,7,7);
+var max = new Array(7,7,7,7,7,7,7,7);
 var trigger = new Array(1,2,4,8,16,32,64,128);
 var toggle = new Array(0,0,0,0,0,0,0,0);
 var rules = new Array(1,1,1,1,1,1,1,1);
@@ -57,9 +57,15 @@ var sign = [[0,0,0,0,0,0,0,0],					// o
 var leds = new Array(128);
 var buffer = new Array(64);
 
+var vb = 1;
+
 function forceRedraw() {
 	dirty_grid = 1;
 	redraw();
+}
+
+function varbright(v) {
+	vb = (v==0);
 }
 
 function redraw() {
@@ -85,17 +91,25 @@ function redraw() {
 				if(position[i1] >= 0)
 					leds[i1*16 + position[i1]] = L0;
 	
-				leds[i1*16 + speed[i1]+1] = L1;
+				leds[i1*16 + speed[i1]+8] = L1;
 	
 				if(toggle[edit_row] & (1 << i1))
-					leds[i1*16 + 14] = L2;
+					leds[i1*16 + 5] = L2;
 				else
-					leds[i1*16 + 14] = L0;
+					leds[i1*16 + 5] = L0;
 	
 				if(trigger[edit_row] & (1 << i1))
-					leds[i1*16 + 15] = L2;
+					leds[i1*16 + 6] = L2;
 				else
-					leds[i1*16 + 15] = L0;
+					leds[i1*16 + 6] = L0;
+			}
+
+			for(i1=0;i1<8;i1++) {
+				if(sync[edit_row] & (1<<i1))
+					leds[i1*16 + 3] = L2;
+				else
+					leds[i1*16 + 3] = L0;
+
 			}
 	
 			leds[edit_row * 16] = L2;
@@ -108,11 +122,6 @@ function redraw() {
 	
 			leds[edit_row * 16] = L1;
 			leds[edit_row * 16 + 1] = L1;
-	
-			for(i1=0;i1<8;i1++) {
-				if(sync[edit_row] & (1<<i1))
-					leds[i1*16 + 3] = L1; 
-			}
 	
 			leds[rule_dests[edit_row] * 16 + 5] = L2;
 			leds[rule_dests[edit_row] * 16 + 6] = L2;
@@ -130,15 +139,31 @@ function redraw() {
 			}
 		}
 
-		for(i1=0;i1<8;i1++)
-			for(i2=0;i2<8;i2++)
-				buffer[i1*8+i2] = leds[i1*16+i2];
-		outlet(0,"map0",buffer);
+		if(vb==1) {
+			for(i1=0;i1<8;i1++)
+				for(i2=0;i2<8;i2++)
+					buffer[i1*8+i2] = leds[i1*16+i2];
+			outlet(0,"map0",buffer);
 
-		for(i1=0;i1<8;i1++)
-			for(i2=0;i2<8;i2++)
-				buffer[i1*8+i2] = leds[i1*16+i2+8];
-		outlet(0,"map1",buffer);
+			for(i1=0;i1<8;i1++)
+				for(i2=0;i2<8;i2++)
+					buffer[i1*8+i2] = leds[i1*16+i2+8];
+			outlet(0,"map1",buffer);
+		} else { // non-varbright leds
+			var mask0 = 0;
+			var mask1 = 0;
+			for(y=0;y<YSIZE;y++) {
+				for(x=0;x<8;x++) {
+					if(leds[x+y*16]>3) mask0 = mask0 | 1<<x; // if on at all, set to full bright
+					else mask0 = mask0 & ~(1<<x); // if off, leave cell off
+				}
+				for(x=0;x<8;x++) {
+					if(leds[x+y*16+8]>3) mask1 = mask1 | 1<<x; // if on at all, set to full bright
+					else mask1 = mask1 & ~(1<<x); // if off, leave cell off
+				}
+				outlet(0,"row",0,y,mask0,mask1);
+			}
+		}
 
 		dirty_grid = 0;
 	}
@@ -166,8 +191,10 @@ function key(x, y, z) {
 		}
 	}
 	else if(x == 1 && mode != 0) {
-		if(mode == 1 && z == 1)
+		if(mode == 1 && z == 1) {
 			mode = 2;
+			edit_row = y;
+		}
 		else if(mode == 2 && z == 0)
 			mode = 1;
 	}
@@ -181,6 +208,7 @@ function key(x, y, z) {
 			count[y] = x;
 			min[y] = x;
 			max[y] = x;
+			tick[y] = speed[y];
 		}
 		else if(z == 1 && scount[y] == 2) {
 			if(x < count[y]) {
@@ -195,26 +223,77 @@ function key(x, y, z) {
 	}
 	// set speeds and trig/tog
 	else if(mode == 1 && z == 1) {
-		if(x > 1 && x < 14) {
-			speed[y] = x-1;
+		if(x > 7) {
+			speed[y] = x-8;
+			tick[y] = speed[y];
 		}
-		else if(x == 14) {
+		else if(x == 5) {
 			toggle[edit_row] ^= 1<<y;
 			trigger[edit_row] &= ~(1<<y);
+
+			if(toggle[edit_row] & 1<<y) {
+				for(n=0;n<8;n++) {
+					if(trigger[y] & (1<<n)) {
+						state[n] = 0;
+						clear[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+					else if(toggle[y] & (1<<n)) {
+						state[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+				}
+			}
 		}
-		else if(x == 15) {
+		else if(x == 6) {
 			trigger[edit_row] ^= 1<<y;
 			toggle[edit_row] &= ~(1<<y);
+
+			if(trigger[edit_row] & 1<<y) {
+				for(n=0;n<8;n++) {
+					if(trigger[y] & (1<<n)) {
+						state[n] = 0;
+						clear[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+					else if(toggle[y] & (1<<n)) {
+						state[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+				}
+			}
 		}
-	}
-	else if(mode == 2 && z == 1) {
-		if(x == 2) {
-			position[y] = -1;
+		else if(x == 2) {
+			if(position[y] == -1)
+				position[y] = count[y];
+			else {
+				position[y] = -1;
+
+				for(n=0;n<8;n++) {
+					if(trigger[y] & (1<<n)) {
+						state[n] = 0;
+						clear[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+					else if(toggle[y] & (1<<n)) {
+						state[n] = 0;
+						outlet(0,"trigger",y,state[y]);
+						last[y] = state[y];
+					}
+				}
+			}
 		}
 		else if(x == 3) {
 			sync[edit_row] ^= (1<<y);
 		}
-		else if(x > 4 && x < 7) {
+	}
+	else if(mode == 2 && z == 1) {
+		if(x > 4 && x < 7) {
 			rule_dests[edit_row] = y;
 		}
 		else if(x > 6) {
