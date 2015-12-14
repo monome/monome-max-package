@@ -4,19 +4,19 @@ Tools for using adaptable hardware interfaces.
 
 ## Applications
 
-meadowphysics - rhizomatic cascading counter (grid)
-flin - cyclic polyrhythm music box (grid)
-step - live step sequencer (grid)
-corners - performative physics-based controller generator (grid)
+* meadowphysics - rhizomatic cascading counter (grid)
+* flin - cyclic polyrhythm music box (grid)
+* step - live step sequencer (grid)
+* corners - performative physics-based controller generator (grid)
 
-returns - knob routing with integrated LFOs (arc)
+* returns - knob routing with integrated LFOs (arc)
 
 ## Testing and How-to
 
-grid-test
-grid-howto
-arc-test
-arc-howto
+* grid-test
+* grid-howto
+* arc-test
+* arc-howto
 
 ## Grid Studies
 
