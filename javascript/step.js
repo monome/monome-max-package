@@ -112,10 +112,16 @@ function next() {
 		cut_to = -1;
 	}
 	else {
-		play_position++;
-		
-		if(play_position == loop_end+1)
+		if(play_position == 15) {
+			play_position = 0;
+		}
+		else if(play_position == loop_end) {
 			play_position = loop_start;
+		}
+		else {
+			play_position++;
+		}
+		
 	}
 	
 	// check the states, send triggers
