@@ -3155,13 +3155,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 63.0, 608.0, 164.0, 22.0 ],
+					"patching_rect" : [ 63.0, 608.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "serialosc.js",
+						"filename" : "monome-device.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js serialosc.js"
+					"text" : "js monome-device.js"
 				}
 
 			}
@@ -3837,8 +3837,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

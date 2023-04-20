@@ -2992,7 +2992,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "serialosc.maxpat",
+					"name" : "monome-device.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
 					"offset" : [ 1.0, 3.0 ],
@@ -3567,7 +3567,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "flin-note.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3575,27 +3575,27 @@
 , 			{
 				"name" : "flin.js",
 				"bootpath" : "~/Documents/Max 8/Packages/monome/javascript",
-				"patcherrelativepath" : "../javascript",
+				"patcherrelativepath" : "../../../Max 8/Packages/monome/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "flin.json",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"name" : "monome-device.maxpat",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1800,7 +1800,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "serialosc.maxpat",
+					"name" : "monome-device.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
@@ -2183,17 +2183,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "serialosc.maxpat",
+				"name" : "monome-device.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monome-serialosc.js",
+				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

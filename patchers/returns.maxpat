@@ -10232,14 +10232,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "serialosc.maxpat",
+					"name" : "monome-device.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "", "", "", "" ],
 					"patching_rect" : [ 86.0, 37.0, 330.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 31.0, 316.0, 28.0 ],
+					"presentation_rect" : [ 5.0, 31.0, 204.0, 28.0 ],
 					"varname" : "serialosc",
 					"viewvisibility" : 1
 				}
@@ -10916,30 +10916,30 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "returns.json",
-				"bootpath" : "~/Documents/GitHub/returns",
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monome-device.maxpat",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/monome/patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
-				"patcherrelativepath" : "../../Max 8/Packages/monome/patchers",
+				"name" : "returns.json",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine-point.js",
-				"bootpath" : "~/Documents/GitHub/returns",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/monome/javascript",
+				"patcherrelativepath" : "../../../Max 8/Packages/monome/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 79.0, 862.0, 632.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 38.0, 100.0, 862.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
@@ -43,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 548.0, 430.0, 47.0, 20.0 ],
-					"style" : "",
 					"text" : "x y"
 				}
 
@@ -55,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 548.0, 362.0, 47.0, 20.0 ],
-					"style" : "",
 					"text" : "z x y"
 				}
 
@@ -67,7 +67,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 70.0, 440.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "print"
 				}
 
@@ -80,7 +79,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 457.0, 396.0, 61.0, 22.0 ],
-					"style" : "",
 					"text" : "route 1"
 				}
 
@@ -93,7 +91,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 457.0, 362.0, 68.0, 22.0 ],
-					"style" : "",
 					"text" : "$3 $1 $2"
 				}
 
@@ -106,7 +103,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 457.0, 430.0, 75.0, 22.0 ],
-					"style" : "",
 					"text" : "$1 $2 inc"
 				}
 
@@ -119,7 +115,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.0, 340.0, 150.0, 20.0 ],
-					"style" : "",
 					"text" : "clear"
 				}
 
@@ -134,8 +129,7 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.0, 537.0, 130.0, 66.0 ],
-					"rows" : 8,
-					"style" : ""
+					"rows" : 8
 				}
 
 			}
@@ -147,7 +141,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 537.0, 73.0, 22.0 ],
-					"style" : "",
 					"text" : "9 3 0"
 				}
 
@@ -160,7 +153,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 481.0, 169.0, 22.0 ],
-					"style" : "",
 					"text" : "route /monome/grid/key"
 				}
 
@@ -172,7 +164,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 323.0, 226.0, 227.0, 20.0 ],
-					"style" : "",
 					"text" : "matrixctrl @columns 16 @rows 8"
 				}
 
@@ -187,8 +178,7 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 186.0, 180.0, 130.0, 66.0 ],
-					"rows" : 8,
-					"style" : ""
+					"rows" : 8
 				}
 
 			}
@@ -200,8 +190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 132.0, 143.0, 24.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 132.0, 143.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -213,7 +202,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 164.0, 143.0, 54.0, 22.0 ],
-					"style" : "",
 					"text" : "4 0 $1"
 				}
 
@@ -226,7 +214,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 115.0, 100.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "1 1 0"
 				}
 
@@ -239,7 +226,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 100.0, 47.0, 22.0 ],
-					"style" : "",
 					"text" : "1 1 1"
 				}
 
@@ -252,7 +238,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 276.0, 219.0, 22.0 ],
-					"style" : "",
 					"text" : "/monome/grid/led/set $1 $2 $3"
 				}
 
@@ -265,7 +250,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 340.0, 169.0, 22.0 ],
-					"style" : "",
 					"text" : "/monome/grid/led/all 0"
 				}
 
@@ -278,7 +262,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 51.0, 198.0, 22.0 ],
-					"style" : "",
 					"text" : "/monome/grid/led/set 2 0 1"
 				}
 
@@ -293,12 +276,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "serialosc.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 4,
+					"name" : "monome-device.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int", "", "" ],
+					"outlettype" : [ "", "int", "", "", "", "" ],
 					"patching_rect" : [ 30.0, 396.0, 200.0, 22.0 ],
 					"varname" : "serialosc",
 					"viewvisibility" : 1
@@ -309,8 +293,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -318,8 +301,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -327,8 +309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -336,8 +317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -345,8 +325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -354,8 +333,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -363,8 +340,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-121", 0 ]
 				}
 
@@ -372,8 +347,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-122", 0 ]
 				}
 
@@ -381,8 +354,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -390,8 +361,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -399,8 +368,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -408,8 +375,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -417,8 +382,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -426,8 +389,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -435,8 +396,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -444,29 +403,27 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-89", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Work/web/monome.github.io/docs/grid-studies/max/files",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Work/web/monome.github.io/docs/grid-studies/max/files",
-				"patcherrelativepath" : ".",
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : "../../../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "monome-device.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
