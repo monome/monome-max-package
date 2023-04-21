@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 932.0, 848.0 ],
+		"rect" : [ 581.0, 66.0, 200.0, 50.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3011,7 +3011,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "monitor / rotation / reload",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -3049,7 +3049,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "messages to device",
 					"id" : "obj-34",
 					"index" : 0,
 					"maxclass" : "inlet",

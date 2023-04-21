@@ -40,25 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 23.0, 97.0, 22.0 ],
-					"text" : "loadmess 120"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-75",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.5, 589.0, 156.0, 33.0 ],
-					"text" : "grid learn max 3-2\nhttp://monome.org"
+					"patching_rect" : [ 9.5, 588.0, 160.0, 33.0 ],
+					"text" : "grid studies: max 3-2\nhttp://monome.org"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 132.0, 23.0, 95.0, 22.0 ],
+					"text" : "loadmess 150"
 				}
 
 			}
@@ -335,8 +335,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 75.0, 310.0, 47.0, 22.0 ],
-					"text" : "t i b"
+					"patching_rect" : [ 75.0, 310.0, 88.0, 22.0 ],
+					"text" : "trigger i b"
 				}
 
 			}
@@ -644,14 +644,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "monome-device.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monome-device.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1

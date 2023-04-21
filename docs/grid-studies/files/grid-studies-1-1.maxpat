@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.5, 588.0, 160.0, 33.0 ],
+					"text" : "grid studies: max 1-1\nhttp://monome.org"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "/monome" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -65,14 +77,14 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "monome-device.js",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monome-device.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
