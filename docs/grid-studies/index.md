@@ -15,7 +15,7 @@ This lesson assumes a basic understanding of the Max patching interface. If you'
 
 Download Max 8: [cycling74.com/downloads](https://cycling74.com/downloads/)
 
-Download the monome installer: [/docs/serialosc/setup](/docs/serialosc/setup)
+Install serialosc: [/docs/serialosc/setup](/docs/serialosc/setup)
 
 Download the code examples here: [files/grid-studies-max.zip](files/grid-studies-max.zip)
 
