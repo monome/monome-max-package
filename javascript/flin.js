@@ -22,9 +22,6 @@ var widths = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 var counts = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 var holding = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
-var leds = new Array(128);
-var buffer = new Array(64);
-
 function e(s) {
 	eval(s);
 }
@@ -41,29 +38,25 @@ function forceRedraw() {
 function redraw() {
 	if(dirty_grid != 0) {
 		for(i1=0;i1<16;i1++) {
-			for(i2=0;i2<8;i2++)
-				leds[i2*16 + i1] = (speeds[i1] != 7) * L0;
-			
-			if(speeds[i1] != 7) {
-				y1 = Math.max(0,positions[i1] - widths[i1]);
-				y2 = Math.min(8,positions[i1]);
-				
-				for(i2=y1;i2<y2;i2++)
-					leds[i2*16 + i1] = L2;
+			for(i2=0;i2<YSIZE;i2++){
+				if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)){
+					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L0;
+					outlet(0,result);
+				}else{
+					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + 0;
+					outlet(0,result);
+				}
 			}
-		
+			if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)) {
+				y1 = Math.max(0,positions[i1] - widths[i1]);
+				y2 = Math.min(YSIZE,positions[i1]);
+				
+				for(i2=y1;i2<y2;i2++){
+					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L2;
+					outlet(0,result);
+				}
+			}
 		}
-
-		for(i1=0;i1<8;i1++)
-			for(i2=0;i2<8;i2++)
-				buffer[i1*8+i2] = leds[i1*16+i2];
-		outlet(0,"map0",buffer);
-
-		for(i1=0;i1<8;i1++)
-			for(i2=0;i2<8;i2++)
-				buffer[i1*8+i2] = leds[i1*16+i2+8];
-		outlet(0,"map1",buffer);
-		
 		dirty_grid = 0;
 	}
 }
@@ -71,6 +64,7 @@ function redraw() {
 function size(sx, sy) {
 	XSIZE = sx;
 	YSIZE = sy;
+	speeds = [YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1];
 }
 
 function key(kx, ky, state) {
@@ -80,8 +74,7 @@ function key(kx, ky, state) {
 			widths[kx] = ky+1;
 			positions[kx] = length-1;
 			counts[kx]=ky+1;
-			
-			if(ky==7)
+			if(ky==YSIZE-1)
 				outlet(0,"note",kx,0);
 		}
 		else {
@@ -100,7 +93,7 @@ function key(kx, ky, state) {
 
 function next() {
 	for(i1=0;i1<16;i1++)
-		if(speeds[i1] != 7) {
+		if(speeds[i1] != YSIZE-1) {
 			counts[i1]++;
 			if(counts[i1] > speeds[i1]) {
 				positions[i1] = (positions[i1]+1) % length;
@@ -112,6 +105,6 @@ function next() {
 					outlet(0,"note",i1,0);
 			}
 		}
-	
+	// post('nexting')
 	dirty_grid = 1;
 }
