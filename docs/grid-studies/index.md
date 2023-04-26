@@ -38,7 +38,7 @@ Open Max and start a new patcher.
 
 Create a new object (press <kbd>N</kbd>) and type `bpatcher monome-device` and then hit enter. A bpatcher window will appear, resize this to match the long rectangle.
 
-![](images/grid-studies-1-1-1.png)
+![](images/grid-studies-1-1.png)
 
 Plug in your grid and it will appear in the box. If you connect more than one grid, you can choose which device to communicate with via the dropdown.
 
@@ -51,7 +51,7 @@ Messages are sent to `[monome-device]` through the top left inlet, and device in
 
 ### 2.1 Key input
 
-![](images/grid-studies-2-1-1.png)
+![](images/grid-studies-2-1.png)
 
 To see what is coming from the grid, create a `message` object (push <kbd>M</kbd>) and connect the left outlet of `[monome-device]` to its right input. Press some keys on the grid and OSC data will be displayed in the message box.
 
@@ -67,17 +67,18 @@ Other messages, such as `/sys/connect` and `/sys/disconnect`, also come from thi
 
 Add `[route /monome/grid/key]` between `[monome-device]` and the `message` object to see the output from the keypresses only.
 
-We now have a list of 3 numbers according to each key action. We can use an `[unpack 0 0 0]` to break this down further into individual numbers, but let's visualize the keypresses in Max with a 16x8 `matrixctrl`:
+We now have a list of 3 numbers according to each key action. We can use an `[unpack 0 0 0]` to break this down further into individual numbers, but let's visualize the keypresses in Max with a `[matrixctrl @autosize 1]`, which creates a dynamically re-sizeable matrix. To match the matrix to your grid's dimensions (128's are 16 x 8, whereas 256's are 16 x 16), we'll attach the `columns` and `rows` outputs of `[monome-device]` to two messages:
 
 ```
-[matrixctrl @columns 16 @rows 8]
+columns -> (columns $1)
+rows -> (rows $1)
 ```
 
-Connect the output of the route to this `matrixctrl` for a graphical display of the grid's key state.
+To show your grid's key states, connect the output of the `route` to this `matrixctrl`.
 
 ### 2.2 LED output
 
-![](images/grid-studies-2-2-1.png)
+![](images/grid-studies-2-2.png)
 
 Above `[monome-device]`, create a message (push <kbd>M</kbd>) and type:
 
@@ -107,7 +108,7 @@ To clear the entire grid, use the following message:
 
 To change the LEDs on our grid with each physical press, we'll connect the output of our `matrixctrl` into our `/monome/grid/led/set $1 $2 $3` message, which then feeds into `[monome-device]`'s left inlet (see the red cable in the image below).
 
-![](images/grid-studies-2-3-1.png)
+![](images/grid-studies-2-3.png)
 
 You now have a coupled interface, where the key state is reflected by the the LEDs.
 
@@ -115,7 +116,7 @@ You now have a coupled interface, where the key state is reflected by the the LE
 
 The grid can also display information beyond the current physical interaction. Throughout this doc, we'll refer to this quality of LED independence as being *decoupled*. The most fundamental decoupled interface is an array of toggles. So, let's ignore the key up state, switching the LED state *only* on key down.
 
-![](images/grid-studies-2-4-1.png)
+![](images/grid-studies-2-4.png)
 
 Start by removing the connection we made earlier from our `matrixctrl` to `[monome-device]`. Now, we can filter out key-up messages by re-arranging the order of the `[route /monome/grid/key]` output, by connecting it to a `message` and another `[route]`:
 
@@ -125,7 +126,7 @@ Start by removing the connection we made earlier from our `matrixctrl` to `[mono
 [route 1]
 ```
 
-By moving the key state (`z`, here as `$3`) to the front, `[route 1]` will only pass messages where this first number is equal to `1`. What comes out of `[route 1]` is just our x and y coordinates. We can use these to toggle *another* `[matrixctrl]` (at top) by adding `inc` to the end of another filtering message:
+By moving the key state (`z`, here as `$3`) to the front, `[route 1]` will only pass messages where this first number is equal to `1`. What comes out of `[route 1]` is just our x and y coordinates. We can use these to toggle keys on our `[matrixctrl]` by adding `inc` to the end of another filtering message:
 
 ```
 ($1 $2 inc)
@@ -255,13 +256,13 @@ We've created a minimal yet intuitive interface for rapidly exploring sequences.
 
 ### Suggested exercises
 
+- If you have access to a 256 grid, try adapting the 3.x patches to accommodate this larger size.
 - Display the loop range with dim LED levels.
 - "Record" keypresses in the "trigger" row to the toggle matrix.
 - Display the playhead position as a dim column behind the toggle data.
 - Use the rightmost key in the "trigger" row as an "alt" key.
 	- If "alt" is held while pressing a toggle, clear the entire row.
 	- If "alt" is held while pressing the play row, reverse the direction of play.
-
 
 ### Bonus
 

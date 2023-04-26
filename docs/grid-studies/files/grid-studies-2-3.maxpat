@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-75",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.5, 588.0, 160.0, 33.0 ],
-					"text" : "grid studies: max 2-3\nhttp://monome.org"
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 478.0, 236.0, 59.0, 22.0 ],
+					"text" : "rows $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 384.0, 236.0, 81.0, 22.0 ],
+					"text" : "columns $1"
 				}
 
 			}
@@ -56,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 428.0, 47.0, 22.0 ],
+					"patching_rect" : [ 279.0, 240.0, 47.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -68,13 +80,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 545.0, 328.0, 45.0, 20.0 ],
+					"patching_rect" : [ 649.0, 63.0, 45.0, 20.0 ],
 					"text" : "clear"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autosize" : 1,
 					"columns" : 16,
 					"id" : "obj-107",
 					"maxclass" : "matrixctrl",
@@ -82,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 382.0, 525.0, 130.0, 66.0 ],
+					"patching_rect" : [ 332.0, 341.0, 258.0, 130.0 ],
 					"rows" : 8
 				}
 
@@ -94,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 525.0, 73.0, 22.0 ],
-					"text" : "6 3 0"
+					"patching_rect" : [ 240.0, 341.0, 73.0, 22.0 ],
+					"text" : "11 10 0"
 				}
 
 			}
@@ -106,19 +119,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 286.0, 469.0, 169.0, 22.0 ],
+					"patching_rect" : [ 240.0, 283.0, 169.0, 22.0 ],
 					"text" : "route /monome/grid/key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-93",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 517.0, 548.0, 225.0, 20.0 ],
-					"text" : "matrixctrl @columns 16 @rows 8"
 				}
 
 			}
@@ -130,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 388.0, 131.0, 24.0, 24.0 ]
+					"patching_rect" : [ 311.199999999999989, 115.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -141,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 131.0, 54.0, 22.0 ],
+					"patching_rect" : [ 343.199999999999989, 115.0, 54.0, 22.0 ],
 					"text" : "4 0 $1"
 				}
 
@@ -153,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 88.0, 47.0, 22.0 ],
+					"patching_rect" : [ 294.199999999999989, 72.0, 47.0, 22.0 ],
 					"text" : "1 1 0"
 				}
 
@@ -165,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 88.0, 47.0, 22.0 ],
+					"patching_rect" : [ 239.199999999999989, 72.0, 47.0, 22.0 ],
 					"text" : "1 1 1"
 				}
 
@@ -177,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 264.0, 219.0, 22.0 ],
+					"patching_rect" : [ 239.199999999999989, 154.0, 219.0, 22.0 ],
 					"text" : "/monome/grid/led/set $1 $2 $3"
 				}
 
@@ -189,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 367.0, 328.0, 169.0, 22.0 ],
+					"patching_rect" : [ 478.0, 63.0, 169.0, 22.0 ],
 					"text" : "/monome/grid/led/all 0"
 				}
 
@@ -201,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 39.0, 198.0, 22.0 ],
+					"patching_rect" : [ 215.0, 40.0, 198.0, 22.0 ],
 					"text" : "/monome/grid/led/set 2 0 1"
 				}
 
@@ -223,9 +225,21 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "", "", "", "" ],
-					"patching_rect" : [ 286.0, 384.0, 200.0, 22.0 ],
+					"patching_rect" : [ 239.199999999999989, 199.0, 200.0, 22.0 ],
 					"varname" : "serialosc",
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.5, 588.0, 160.0, 33.0 ],
+					"text" : "grid studies: max 2-3\nhttp://monome.org"
 				}
 
 			}
@@ -248,6 +262,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 1 ],
 					"order" : 1,
 					"source" : [ "obj-104", 0 ]
@@ -264,9 +292,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 0.232865549319728, 0.136059639455782, 1.0 ],
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -281,6 +316,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

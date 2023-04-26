@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 581.0, 66.0, 200.0, 50.0 ],
+		"rect" : [ 34.0, 100.0, 1120.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2428,12 +2428,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-65",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.0, 575.0, 52.0, 22.0 ],
-					"text" : "redraw"
+					"patching_rect" : [ 222.0, 575.0, 109.0, 22.0 ],
+					"text" : "sprintf redraw"
 				}
 
 			}
