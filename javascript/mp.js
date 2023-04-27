@@ -68,6 +68,14 @@ function varbright(v) {
 	vb = (v==0);
 }
 
+function size(sx, sy) {
+	XSIZE = sx;
+	YSIZE = sy;
+	// for (var i = 0; i < 16; i++){
+	// 	speeds[i] = YSIZE-1;
+	// }
+}
+
 function redraw() {
 	if(dirty_grid != 0) {
 		// clear grid
