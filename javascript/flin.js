@@ -2,8 +2,8 @@ inlets = 1;
 outlets = 1;
 
 var L2 = 15;
-var L1 = 9;
-var L0 = 5;
+var L1 = 5;
+var L0 = 2;
 
 var XSIZE = 16;
 var YSIZE = 8;
@@ -40,17 +40,16 @@ function redraw() {
 		for(i1=0;i1<16;i1++) {
 			for(i2=0;i2<YSIZE;i2++){
 				if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)){
-					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L0;
+					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L1;
 					outlet(0,result);
 				}else{
-					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + 0;
+					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L0;
 					outlet(0,result);
 				}
 			}
 			if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)) {
 				y1 = Math.max(0,positions[i1] - widths[i1]);
 				y2 = Math.min(YSIZE,positions[i1]);
-				
 				for(i2=y1;i2<y2;i2++){
 					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L2;
 					outlet(0,result);
@@ -64,7 +63,9 @@ function redraw() {
 function size(sx, sy) {
 	XSIZE = sx;
 	YSIZE = sy;
-	speeds = [YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1,YSIZE-1];
+	for (var i = 0; i < 16; i++){
+		speeds[i] = YSIZE-1;
+	}
 }
 
 function key(kx, ky, state) {
@@ -72,7 +73,7 @@ function key(kx, ky, state) {
 		if(!holding[kx]) {
 			speeds[kx] = ky;
 			widths[kx] = ky+1;
-			positions[kx] = length-1;
+			positions[kx] = 0;
 			counts[kx]=ky+1;
 			if(ky==YSIZE-1)
 				outlet(0,"note",kx,0);
@@ -96,15 +97,15 @@ function next() {
 		if(speeds[i1] != YSIZE-1) {
 			counts[i1]++;
 			if(counts[i1] > speeds[i1]) {
-				positions[i1] = (positions[i1]+1) % length;
-				counts[i1] = 0;
-				
 				if(positions[i1] == 0)
 					outlet(0,"note",i1,1);
 				else if(positions[i1] - widths[i1] == 0)
 					outlet(0,"note",i1,0);
+
+				positions[i1] = (positions[i1]+1) % length;
+				counts[i1] = 0;
 			}
 		}
-	// post('nexting')
+	
 	dirty_grid = 1;
 }
