@@ -223,17 +223,17 @@ function led_level(x,y,level) {
 		led_quads[0][offset+x] = level;
 		quad_dirty[0] = 1;
 	}
-	else if(x > 7 && x < 16 && y < 8){
+	else if(x < 16 && y < 8){
 		offset = 8*y;
 		led_quads[1][offset+(x-8)] = level;
 		quad_dirty[1] = 1;
 	}
-	else if(x < 8 && y > 7 && y < 16){
+	else if(x < 8 && y < 16){
 		offset = 8*(y-8);
 		led_quads[2][offset+x] = level;
 		quad_dirty[2] = 1;
 	}
-	else if(x > 7 && x < 16 && y > 7 && y < 16){
+	else if(x < 16 && y < 16){
 		offset = 8*(y-8);
 		led_quads[3][offset+(x-8)] = level;
 		quad_dirty[3] = 1;

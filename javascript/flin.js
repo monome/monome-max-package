@@ -40,19 +40,16 @@ function redraw() {
 		for(i1=0;i1<16;i1++) {
 			for(i2=0;i2<YSIZE;i2++){
 				if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)){
-					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L1;
-					outlet(0,result);
+					outlet(0,"osc","led/lev",i1,i2,L1)
 				}else{
-					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L0;
-					outlet(0,result);
+					outlet(0,"osc","led/lev",i1,i2,L0)
 				}
 			}
 			if((YSIZE == 16 && speeds[i1] != 15) || (YSIZE == 8 && speeds[i1] != 7)) {
 				y1 = Math.max(0,positions[i1] - widths[i1]);
 				y2 = Math.min(YSIZE,positions[i1]);
 				for(i2=y1;i2<y2;i2++){
-					var result = '/flin/grid/led/level/set ' +i1 + ' ' + i2 + ' ' + L2;
-					outlet(0,result);
+					outlet(0,"osc","led/lev",i1,i2,L2)
 				}
 			}
 		}
@@ -89,7 +86,7 @@ function key(kx, ky, state) {
 		holding[kx] = 0;
 	}
 	
-	dirty_grid++;
+	dirty_grid = 1;
 }
 
 function next() {

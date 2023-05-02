@@ -2817,7 +2817,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 36.5, 157.0, 75.0, 22.0 ],
-					"text" : "qmetro 40"
+					"text" : "metro 40"
 				}
 
 			}
