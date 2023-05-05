@@ -42,12 +42,8 @@ function insert_all(state) {
 }
 
 function insert_set(x,y,level) {
-	if(level == 1) {
-		led_level(x,y,15);
-	}
-	else {
-		led_level(x,y,0);
-	}
+	level = clamp(level,0,1);
+	led_level(x,y,15 * level);
 }
 
 function insert_row(x_offset,y,n1,n2) {
@@ -107,20 +103,14 @@ function insert_col(x,y_offset,n1,n2) {
 			decoded[i] = 0
 		}
 	}
+	
+	floored = clamp(Math.floor(x/8),0,1);
+
 	for(i = 0; i < decoded.length; i++){
-		if(x < 8){
-			if (offset == false){
-				led_quads[0][(i*8)+x] = decoded[i] * 15;
-			}else{
-				led_quads[2][(i*8)+x] = decoded[i] * 15;
-			}
-			
+		if (offset == false){
+			led_quads[0 + floored][(i*8)+(x - (floored * 8))] = decoded[i] * 15;
 		}else{
-			if (offset == false){
-				led_quads[1][(i*8)+(x-8)] = decoded[i] * 15;
-			}else{
-				led_quads[3][(i*8)+(x-8)] = decoded[i] * 15;
-			}
+			led_quads[2 + floored][(i*8)+(x - (floored * 8))] = decoded[i] * 15;
 		}
 	}
 	
@@ -129,7 +119,7 @@ function insert_col(x,y_offset,n1,n2) {
 		quad_dirty[1] = 1;
 	}else{
 		quad_dirty[2] = 1;
-		quad_dirty[4] = 1;
+		quad_dirty[3] = 1;
 	}
 	
 	if(n2 != null){
@@ -141,103 +131,80 @@ function insert_col(x,y_offset,n1,n2) {
 			}
 		}
 		for(i = 0; i < decoded.length; i++){
-			if(x < 8){
-				if (offset == false){
-					led_quads[2][(i*8)+x] = decoded[i] * 15;
-					quad_dirty[2] = 1;
-				}
-			}else{
-				if (offset == false){
-					led_quads[3][(i*8)+(x-8)] = decoded[i] * 15;
-					quad_dirty[3] = 1;
-				}
+			if (offset == false){
+				led_quads[2+floored][(i*8)+(x - (8*floored))] = decoded[i] * 15;
+				quad_dirty[2+floored] = 1;
 			}
 		}
 	}
 }
 
 function row_level() {
-	if(arguments.length > 2){
+	if(arguments.length == 10 || arguments.length == 18){
+
 		x_offset = arguments[0];
 		x_adjust = adjust(x_offset);
 		y = arguments[1];
 		y_adjust = y;
 		quad_adjust = 0;
-		
-		if(arguments.length == 10 || arguments.length == 18){
-			if(y >= 8) {
-				y_adjust = y-8;
-				quad_adjust = 2;
-			}
 
-			yID = 8*y_adjust;
-			qID = x_adjust + quad_adjust;
+		clamped = clamp(Math.floor(y/8),0,1);
+		quad_adjust = 0 + (2 * clamped);
 
-			for(i = 2; i < arguments.length; i++){
-				if(i < 10){
-					led_quads[qID][i-2 + yID] = arguments[i];
-					quad_dirty[qID] = 1;
-				} else {
-					led_quads[qID + 1][i-10 + yID] = arguments[i];
-					quad_dirty[qID + 1] = 1;
-				}	
-			}		
+		y_adjust = y - (clamped * 8);
+
+		yID = 8*y_adjust;
+		qID = x_adjust + quad_adjust;
+
+		for(i = 2; i < arguments.length; i++){
+			if(i < 10){
+				led_quads[qID][i-2 + yID] = arguments[i];
+				quad_dirty[qID] = 1;
+			} else {
+				led_quads[qID + 1][i-10 + yID] = arguments[i];
+				quad_dirty[qID + 1] = 1;
+			}	
 		}		
-	}
+	}		
 }
 
 function col_level() {
-	if(arguments.length > 2){
+	if(arguments.length == 10 || arguments.length == 18){
 		x = arguments[0];
 		y_offset = arguments[1];
 		x_adjust = adjust(x);
 		y_adjust = adjust(y_offset);
 		
-		if(arguments.length == 10 || arguments.length == 18){
-			
-			if(y_adjust == 0){
-				for(i = 2; i < arguments.length; i++){
-					if(i < 10){
-						led_quads[x_adjust][((8*(i-2)) + x) - (8*x_adjust)] = arguments[i];
-						quad_dirty[x_adjust] = 1;
-					} else {
-						led_quads[x_adjust+2][(8*(i-10)) + x - (8*x_adjust)] = arguments[i];
-						quad_dirty[x_adjust+2] = 1;
-					}	
+		if(y_adjust == 0){
+			for(i = 2; i < arguments.length; i++){
+				if(i < 10){
+					led_quads[x_adjust][((8*(i-2)) + x) - (8*x_adjust)] = arguments[i];
+					quad_dirty[x_adjust] = 1;
+				} else {
+					led_quads[x_adjust+2][(8*(i-10)) + x - (8*x_adjust)] = arguments[i];
+					quad_dirty[x_adjust+2] = 1;
+				}	
+			}
+		}else{
+			for(i = 2; i < arguments.length; i++){
+				if(i < 10){
+					led_quads[x_adjust+2][((8*(i-2)) + x) - (8*x_adjust)] = arguments[i];
+					quad_dirty[x_adjust+2] = 1;
 				}
-			}else{
-				for(i = 2; i < arguments.length; i++){
-					if(i < 10){
-						led_quads[x_adjust+2][((8*(i-2)) + x) - (8*x_adjust)] = arguments[i];
-						quad_dirty[x_adjust+2] = 1;
-					}
-				}
-			}												
-		}		
-	}
+			}
+		}												
+	}		
 }
 
 function led_level(x,y,level) {
-	if(x < 8 && y < 8) {
-		offset = 8*y;
-		led_quads[0][offset+x] = level;
-		quad_dirty[0] = 1;
-	}
-	else if(x < 16 && y < 8){
-		offset = 8*y;
-		led_quads[1][offset+(x-8)] = level;
-		quad_dirty[1] = 1;
-	}
-	else if(x < 8 && y < 16){
-		offset = 8*(y-8);
-		led_quads[2][offset+x] = level;
-		quad_dirty[2] = 1;
-	}
-	else if(x < 16 && y < 16){
-		offset = 8*(y-8);
-		led_quads[3][offset+(x-8)] = level;
-		quad_dirty[3] = 1;
-	}
+	x_idx = Math.floor(x/8);
+	y_idx = Math.floor(y/8);
+	offset = 8 * (y-(8*y_idx));
+	offset_idx = offset + (x-(8*x_idx));
+	quad_idx = 0 + x_idx + (y_idx*2);
+
+	led_quads[quad_idx][offset_idx] = level;
+	quad_dirty[quad_idx] = 1;
 }
 
 function all_level(level) {
