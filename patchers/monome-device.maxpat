@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.5, 23.0, 52.0, 20.0 ],
+					"patching_rect" : [ 675.0, 24.0, 52.0, 20.0 ],
 					"text" : "<~ fps"
 				}
 
@@ -68,8 +68,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.5, 23.0, 88.0, 22.0 ],
-					"text" : "loadmess 60"
+					"patching_rect" : [ 579.5, 23.0, 95.0, 22.0 ],
+					"text" : "loadmess 120"
 				}
 
 			}
