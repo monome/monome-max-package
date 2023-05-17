@@ -12,7 +12,7 @@
 					"on" : [  ],
 					"output-mode" : [  ],
 					"live.gain~" : [ 1.791111 ],
-					"length" : [ 32 ],
+					"length" : [ 16 ],
 					"velocity" : [ 101 ],
 					"flin-note::0flin-note" : [ 2 ],
 					"flin-note[1]::1flin-note" : [ 4 ],

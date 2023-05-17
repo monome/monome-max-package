@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 79.0, 862.0, 632.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 38.0, 100.0, 862.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.5, 588.0, 160.0, 33.0 ],
+					"text" : "grid studies: max 1-1\nhttp://monome.org"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "/monome" ],
 					"bgmode" : 0,
@@ -46,12 +60,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "serialosc.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 4,
+					"name" : "monome-device.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int", "", "" ],
+					"outlettype" : [ "", "int", "", "", "", "" ],
 					"patching_rect" : [ 30.0, 396.0, 200.0, 22.0 ],
 					"varname" : "serialosc",
 					"viewvisibility" : 1
@@ -61,21 +76,21 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Work/web/monome.github.io/docs/grid-studies/max/files",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "serialosc.js",
-				"bootpath" : "~/Work/web/monome.github.io/docs/grid-studies/max/files",
-				"patcherrelativepath" : ".",
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"patcherrelativepath" : "../../../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "monome-device.maxpat",
+				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

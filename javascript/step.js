@@ -3,7 +3,7 @@ outlets = 1;
 
 var key_count = 0;
 var last_press;
-var play_position = 0;
+var play_position = -1;
 var cut_to = -1;
 
 var loop_start = 0;
@@ -13,26 +13,35 @@ var redraw_grid = 0;
 
 var pattern=0;
 
+var XSIZE = 16;
+var YSIZE = 8;
+
 var i1, i2;
 
-var states = new Array(16);
+var states = [];
 
 var leds = new Array(128);
 var buffer = new Array(64);
 
-
-
-
-for(i1=0;i1<16;i1++) {
-	states[i1] = new Array(96);
+for(i1=0; i1<16; i1++) {
+	states[i1] = [];
 	
-	for(i2=0;i2<96;i2++)
-		states[i1][i2] = 0;
+	for(i2=0; i2<16; i2++) {
+		states[i1][i2] = [];
+
+		for(var i3 = 0; i3<16; i3++){
+			states[i1][i2][i3] = 0;
+		}
+	}
 }
-	
 
-
-
+function size(sx, sy) {
+	XSIZE = sx;
+	YSIZE = sy;
+	// for (var i = 0; i < 16; i++){
+	// 	speeds[i] = YSIZE-1;
+	// }
+}
 
 // key decoding
 function key(x, y, z) {
@@ -55,7 +64,7 @@ function key(x, y, z) {
 			pattern = x;
 	}
 	else if(y > 1 && z == 1) {
-		states[pattern][x + (y-2)*16] ^= 1;
+		states[pattern][x][(y-2)] ^= 1;
 		
 		redraw();
 	}
@@ -64,44 +73,85 @@ function key(x, y, z) {
 
 // LED redraw function
 function redraw() {
-	for(i1=0;i1<16;i1++) {
-		leds[i1] = 0;
-	}
-	
-	// pattern row
-	for(i1=0;i1<16;i1++) {
-		leds[i1+16] = 5;
-	}
-	leds[16+pattern] = 15;
+	var highlight = 0;
+	var show_level = 0;
+
+	for(var x = 0; x < 16; x++){
+		
+		if(x == play_position){
+			show_level = 4;
+		}else{
+			show_level = 0;
+		}
+
+		for(var y = 2; y < YSIZE; y++){
+			if(!(loop_start == 0 && loop_end == 15)){
+				if(x >= loop_start && x<= loop_end){
+					if(x == play_position){
+						if(states[pattern][x][y-2] == 1){
+							show_level = 15;
+						}else{
+							show_level = 8;
+						}
+					}else{
+						if(states[pattern][x][y-2] == 1){
+							show_level = 11;
+						}else{
+							show_level = 3;
+						}
+					}
+				}else{
+					if(x == play_position){
+						if(states[pattern][x][y-2] == 1){
+							show_level = 15;
+						}else{
+							show_level = 8;
+						}
+					}else{
+						if(states[pattern][x][y-2] == 1){
+							show_level = 11;
+						}else{
+							show_level = 0;
+						}
+					}
+				}
+			}else{
+				if(x == play_position){
+					if(states[pattern][x][y-2] == 1){
+						show_level = 15;
+					}else{
+						show_level = 8;
+					}
+				}else{
+					if(states[pattern][x][y-2] == 1){
+						show_level = 11;
+					}else{
+						show_level = 0;
+					}
+				}
+			}
+
+			
+			outlet(0,"osc","/monome/grid/led/level/set",x,y,show_level);
+		};
+
+		if(pattern == x){
+			outlet(0,"osc","/monome/grid/led/level/set",x,1,15);
+		}else{
+			outlet(0,"osc","/monome/grid/led/level/set",x,1,5);
+		}
+	};
 
 	
-	// display toggles
-	for(i1=0;i1<96;i1++)
-		leds[i1+32] = states[pattern][i1] * 11;
+	// // display toggles
+	// for(i1=0;i1<96;i1++)
+	// 	leds[i1+32] = states[pattern][i1] * 11;
 	
-	// display loop
-	if(!(loop_start == 0 && loop_end == 15))
-	for(i1=loop_start;i1<=loop_end;i1++)
-		leds[i1] = 4;
-	
-	leds[play_position] = 15;
-	
-	// display play position
-	for(i1=0;i1<6;i1++)
-		leds[32 + play_position + i1*16] += 4;
+	// // display loop
+	// if(!(loop_start == 0 && loop_end == 15))
+	// // for(i1=loop_start;i1<=loop_end;i1++)
+		// leds[i1] = 4;
 
-	
-	// output OSC for first quadrant
-	for(i1=0;i1<8;i1++)
-		for(i2=0;i2<8;i2++)
-			buffer[i1*8+i2] = leds[i1*16+i2];
-	outlet(0,"osc","/monome/grid/led/level/map",0,0,buffer);
-
-	// output OSC for second quadrant
-	for(i1=0;i1<8;i1++)
-		for(i2=0;i2<8;i2++)
-			buffer[i1*8+i2] = leds[i1*16+i2+8];
-	outlet(0,"osc","/monome/grid/led/level/map",8,0,buffer);
 }
 
 
@@ -112,15 +162,18 @@ function next() {
 		cut_to = -1;
 	}
 	else {
-		play_position++;
-		
-		if(play_position == loop_end+1)
+		if(play_position == loop_end) {
 			play_position = loop_start;
+		}
+		else {
+			play_position++;
+		}
+		
 	}
 	
 	// check the states, send triggers
-	for(i1=0;i1<6;i1++) {
-		if(states[pattern][play_position + i1*16])
+	for(i1=0;i1<YSIZE-2;i1++) {
+		if(states[pattern][play_position][i1])
 			outlet(0,"trig",i1);
 	}
 	
