@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1397.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 789.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -99,7 +99,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "frames per second (defaults to 60)",
+					"comment" : "frames per second (defaults to 120)",
 					"id" : "obj-10",
 					"index" : 0,
 					"maxclass" : "inlet",
