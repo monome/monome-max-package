@@ -28,7 +28,7 @@ To replace `[serialosc]` with `[monome-device]` in an older patch:
 - `flin` - cyclic polyrhythm music box (grid)
 - `step` - live step sequencer (grid)
 - `corners` - performative physics-based controller generator (grid)
-- `grid-midi` - isomorphic keyboard
+- `grid-midi` - isomorphic keyboard (grid)
 - `returns` - knob routing with integrated LFOs (arc)
 
 ## Testing and How-to
