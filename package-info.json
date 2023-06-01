@@ -1,0 +1,31 @@
+{
+	"name" : "monome",
+	"displayname" : "monome",
+	"version" : "1.0.0",
+	"author" : "monome",
+	"authors" : [ "Brian Crabtree", "Dan Derks" ],
+	"description" : "Tools for using adaptable hardware interfaces. Includes examples and in-depth tutorials.",
+	"tags" : [ "hardware", "serialosc", "tutorials", "patches" ],
+	"website" : "https://monome.org/",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "8.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "none",
+			"platform" : [ "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "none",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "",
+	"filelist" : 	{
+	}
+	,
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
+
+<c74object name="monome-device" module="monome-device">
+
+	<digest>
+		Communication between Max and monome hardware devices.
+	</digest>
+
+	<description>
+		Tools for using adaptable hardware interfaces.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Brian Crabtree + Dan Derks</metadata>
+		<metadata name="tag">monome</metadata>
+		<metadata name="tag">monome help</metadata>
+		<metadata name="tag">monome-device</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="message">
+			<digest>
+				Messages to device
+			</digest>
+			<description>
+				Send serialosc-formatted LED messages to a monome grid or arc  
+			</description>
+		</inlet>
+		<inlet id="1" type="message">
+			<digest>
+				Meta-management
+			</digest>
+			<description>
+				Send serialosc-formatted messages to a monome grid or arc for monitoring, rotation, and reload status
+			</description>
+		</inlet>
+		<inlet id="2" type="float">
+			<digest>
+				Frames per second
+			</digest>
+			<description>
+				Send float to set the device's redraw rate (frames per second)
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="message">
+			<digest>
+				Messages from serialosc
+			</digest>
+			<description>
+				Any serialosc message received from the specified monome device is broadcast at this outlet
+			</description>
+		</outlet>
+		<outlet id="1" type="message">
+			<digest>
+				Port
+			</digest>
+			<description>
+			  When a device is selected, its OSC port is broadcast at this outlet
+			</description>
+		</outlet>
+		<outlet id="2" type="message">
+			<digest>
+				Serial number
+			</digest>
+			<description>
+			  When a device is selected, its serial number port is broadcast at this outlet
+			</description>
+		</outlet>
+		<outlet id="3" type="message">
+			<digest>
+				Model
+			</digest>
+			<description>
+			  When a device is selected, its model string is broadcast at this outlet
+			</description>
+		</outlet>
+		<outlet id="4" type="message">
+			<digest>
+				Columns
+			</digest>
+			<description>
+			  When a grid device is selected, the total count of its columns is broadcast at this outlet
+			</description>
+		</outlet>
+		<outlet id="5" type="message">
+			<digest>
+				Rows
+			</digest>
+			<description>
+			  When a grid device is selected, the total count of its rows is broadcast at this outlet
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="Identifier" optional="1" type="string">
+			<digest>Assign a unique identifier to this instance, to avoid conflicts with other patchers. Format with preceding "/", eg. "/flin".</digest>
+		</objarg>
+	</objarglist>
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="">
+		<digest>
+			For the best learning experience, please open the [monome-device] help file.
+		</digest>
+		</method>
+	</methodlist>
+
+	<!--DISCUSSION-->
+	<discussion>
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+	</seealsolist>
+
+	
+
+</c74object>

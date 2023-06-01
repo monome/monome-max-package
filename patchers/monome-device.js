@@ -316,8 +316,8 @@ function menu(i) {
 		connected = serials[i-1];
 	}
 	else {
-		post(ports);
-		post(serials);
+		// post(ports);
+		// post(serials);
 		if(connected)
 			outlet(2, "/sys/port", 0);
 	}

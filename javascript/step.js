@@ -132,13 +132,13 @@ function redraw() {
 			}
 
 			
-			outlet(0,"osc","/monome/grid/led/level/set",x,y,show_level);
+			outlet(0,"osc","/step/grid/led/level/set",x,y,show_level);
 		};
 
 		if(pattern == x){
-			outlet(0,"osc","/monome/grid/led/level/set",x,1,15);
+			outlet(0,"osc","/step/grid/led/level/set",x,1,15);
 		}else{
-			outlet(0,"osc","/monome/grid/led/level/set",x,1,5);
+			outlet(0,"osc","/step/grid/led/level/set",x,1,5);
 		}
 	};
 
