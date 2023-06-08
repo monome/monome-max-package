@@ -24,8 +24,7 @@
 
 	}
 ,
-	"homepatcher" : "",
+	"homepatcher" : "monome-homepatcher.maxpat",
 	"filelist" : 	{
 	}
-	,
 }

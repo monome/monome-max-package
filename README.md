@@ -4,6 +4,8 @@ Tools for using adaptable hardware interfaces.
 
 Before using these patchers, please install [serialosc](https://monome.org/docs/serialosc) on your computer.
 
+In order for these patchers to display as intended, please install the Andale Mono font included in the main folder (`ANDALEMO.TTF`).
+
 ## Patchers
 
 ### Connectivity

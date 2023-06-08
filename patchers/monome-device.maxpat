@@ -3090,6 +3090,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"items" : "none",
