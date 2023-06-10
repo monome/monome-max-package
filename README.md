@@ -12,7 +12,7 @@ In order for these patchers to display as intended, please install the Andale Mo
 
 The `[monome-device]` [bpatcher](https://docs.cycling74.com/max8/refpages/bpatcher) connects monome devices to Max.
 
-`[monome-device]` is designed as *Paste Replace* substitute for the historical `[serialosc]` bpatcher. It supports all of the expected commands, but with protections against overloading the serial bus with non-FTDI (2021 and after) grids. Instead of allowing hundreds of `led` messages to pass over the bus simultaneously, `[monome-device]` uses a 60 fps redraw mechanism which converts `led` messages into more-efficient `map` messages.
+`[monome-device]` is designed as *Paste Replace* substitute for the historical `[serialosc]` bpatcher. It supports all of the expected commands, but with protections against overloading the serial bus with non-FTDI (2021 and after) grids. Instead of allowing hundreds of `led` messages to pass over the bus simultaneously, `[monome-device]` uses a 120 fps redraw mechanism which converts `led` messages into more-efficient `map` messages.
 
 To replace `[serialosc]` with `[monome-device]` in an older patch:
 
