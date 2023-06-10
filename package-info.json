@@ -1,7 +1,7 @@
 {
 	"name" : "monome",
 	"displayname" : "monome",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"author" : "monome",
 	"authors" : [ "Brian Crabtree", "Dan Derks" ],
 	"description" : "Tools for using adaptable hardware interfaces. Includes examples and in-depth tutorials.",
