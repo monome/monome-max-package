@@ -38,9 +38,6 @@ for(i1=0; i1<16; i1++) {
 function size(sx, sy) {
 	XSIZE = sx;
 	YSIZE = sy;
-	// for (var i = 0; i < 16; i++){
-	// 	speeds[i] = YSIZE-1;
-	// }
 }
 
 // key decoding
@@ -142,16 +139,6 @@ function redraw() {
 		}
 	};
 
-	
-	// // display toggles
-	// for(i1=0;i1<96;i1++)
-	// 	leds[i1+32] = states[pattern][i1] * 11;
-	
-	// // display loop
-	// if(!(loop_start == 0 && loop_end == 15))
-	// // for(i1=loop_start;i1<=loop_end;i1++)
-		// leds[i1] = 4;
-
 }
 
 
@@ -166,7 +153,7 @@ function next() {
 			play_position = loop_start;
 		}
 		else {
-			play_position++;
+			play_position = (play_position+1)%(XSIZE);
 		}
 		
 	}
