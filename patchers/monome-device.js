@@ -234,6 +234,11 @@ function init() {
 	if(prefix == 0 || prefix == "#1")
 		prefix = "/monome";
 		
+	if(prefix['0'] != "/") {
+		post("monome-device: no action required, but we're automatically adding the required '/' to your '" + prefix + "' prefix");
+		prefix = "/" + prefix;
+	}
+		
 	if(arguments[2] == 0)
 		autoconnect = 1;
 	
