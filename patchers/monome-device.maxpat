@@ -40,29 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 349.0, 568.0, 102.0, 22.0 ],
-					"text" : "print @time 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 316.0, 499.0, 45.0, 22.0 ],
-					"text" : "t b f"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -477,7 +454,7 @@
 				"box" : 				{
 					"comment" : "frames per second (defaults to 120)",
 					"id" : "obj-10",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2625,7 +2602,7 @@
 					"annotation" : "",
 					"comment" : "rows",
 					"id" : "obj-91",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2637,7 +2614,7 @@
 				"box" : 				{
 					"comment" : "columns",
 					"id" : "obj-89",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2911,7 +2888,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 250.5, 751.0, 167.0, 22.0 ],
-					"text" : "/monome/grid/led/all 0"
+					"text" : "/#1/grid/led/all 0"
 				}
 
 			}
@@ -3335,7 +3312,7 @@
 				"box" : 				{
 					"comment" : "model",
 					"id" : "obj-31",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3347,7 +3324,7 @@
 				"box" : 				{
 					"comment" : "serial number",
 					"id" : "obj-30",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3371,7 +3348,7 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-27",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3419,7 +3396,7 @@
 				"box" : 				{
 					"comment" : "monitor / rotation / reload",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3457,7 +3434,7 @@
 				"box" : 				{
 					"comment" : "messages to device",
 					"id" : "obj-34",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3470,7 +3447,7 @@
 				"box" : 				{
 					"comment" : "messages from serialosc",
 					"id" : "obj-33",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3670,7 +3647,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-62", 1 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3825,20 +3802,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
-					"source" : [ "obj-38", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -4077,16 +4040,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"order" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -4293,7 +4247,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "monome-device.js",
+				"bootpath" : "~/Documents/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
