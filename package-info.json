@@ -1,11 +1,11 @@
 {
 	"name" : "monome",
 	"displayname" : "monome",
-	"version" : "1.0.1",
+	"version" : "1.1",
 	"author" : "monome",
 	"authors" : [ "Brian Crabtree", "Dan Derks" ],
-	"description" : "Tools for using adaptable hardware interfaces. Includes examples and in-depth tutorials.",
-	"tags" : [ "hardware", "serialosc", "tutorials", "patches" ],
+	"description" : "Tools for using adaptable hardware interfaces. Includes examples and in-depth tutorials for grids, crow, and arc.",
+	"tags" : [ "hardware", "grid", "crow", "arc", "eurorack", "serialosc" ],
 	"website" : "https://monome.org/",
 	"extends" : "",
 	"extensible" : 0,
@@ -24,7 +24,7 @@
 
 	}
 ,
-	"homepatcher" : "monome-homepatcher.maxpat",
+	"homepatcher" : "monome-home.maxpat",
 	"filelist" : 	{
 	}
 }
