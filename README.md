@@ -81,5 +81,4 @@ In addition to `[crow]`, there are many helper objects which can aid in developm
 
 Special thanks to Cycling '74 for supporting our continued explorations. In loving memory of Darwin Grosse.
 
-May 2023  
 http://monome.org
