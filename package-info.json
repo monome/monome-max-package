@@ -1,7 +1,7 @@
 {
 	"name" : "monome",
 	"displayname" : "monome",
-	"version" : "1.1",
+	"version" : "1.1.0",
 	"author" : "monome",
 	"authors" : [ "Brian Crabtree", "Dan Derks" ],
 	"description" : "Tools for using adaptable hardware interfaces. Includes examples and in-depth tutorials for grids, crow, and arc.",
