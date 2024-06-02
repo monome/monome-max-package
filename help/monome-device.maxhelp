@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -52,14 +52,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 686.0, 492.0 ],
+						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -154,6 +154,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[11]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -219,6 +220,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[7]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -284,6 +286,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[8]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -349,6 +352,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[9]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -414,6 +418,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[10]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -479,6 +484,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[6]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -544,6 +550,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[5]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -609,6 +616,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[4]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -674,6 +682,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[3]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -739,6 +748,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[2]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -793,8 +803,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -853,8 +863,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 4,
+															"minor" : 6,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1130,6 +1140,7 @@
 											"parameter_enum" : [ "\"arc: how-to\"", "\"arc: how-to\"" ],
 											"parameter_longname" : "flin[2]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "flin",
 											"parameter_type" : 2
 										}
@@ -1189,6 +1200,7 @@
 											"parameter_enum" : [ "\"grid: how-to\"", "\"grid: how-to\"" ],
 											"parameter_longname" : "flin[1]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "flin",
 											"parameter_type" : 2
 										}
@@ -1268,6 +1280,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns[1]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -1333,6 +1346,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "returns",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "arc: returns",
 											"parameter_type" : 2
 										}
@@ -1393,6 +1407,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "corners",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "corners",
 											"parameter_type" : 2
 										}
@@ -1452,6 +1467,7 @@
 											"parameter_enum" : [ "step", "step" ],
 											"parameter_longname" : "step",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "step",
 											"parameter_type" : 2
 										}
@@ -1511,6 +1527,7 @@
 											"parameter_enum" : [ "meadowphysics", "meadowphysics" ],
 											"parameter_longname" : "meadowphysics",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "meadowphysics",
 											"parameter_type" : 2
 										}
@@ -1570,6 +1587,7 @@
 											"parameter_enum" : [ "flin", "flin" ],
 											"parameter_longname" : "flin",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "flin",
 											"parameter_type" : 2
 										}
@@ -2531,8 +2549,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2684,8 +2702,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3092,6 +3110,7 @@
 											"parameter_longname" : "plugingain",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -3126,8 +3145,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3526,62 +3545,6 @@
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
-													}
-,
-													"snapshot" : 													{
-														"filetype" : "C74Snapshot",
-														"version" : 2,
-														"minorversion" : 0,
-														"name" : "snapshotlist",
-														"origin" : "vst~",
-														"type" : "list",
-														"subtype" : "Undefined",
-														"embed" : 1,
-														"snapshot" : 														{
-															"pluginname" : "Aalto.vstinfo",
-															"plugindisplayname" : "Aalto",
-															"pluginsavedname" : "",
-															"pluginsaveduniqueid" : 1096903796,
-															"version" : 1,
-															"isbank" : 0,
-															"isbase64" : 1,
-															"blob" : "4870.CMlaKA....fQPMDZ....ADTXrQG...vv....A........................................Hgx6oPBh.WXzMFZhnSB6oPBIHBYkwVX48UZtAWczIhNI.CKJjPBhzVXyQWYx8Ec04VYhnSBzPCLrnPBIHxbkE2WzIWZmIhNI.CKJjPBhrVY48kcuk1XkMmH5j.MrnPBIHxZkk2Ws8FYhnSBwvhBIjfHqUVdeIVYtQlH5jvMrnPBIHxZkk2W04VZy8lahnSBvvhBIjfHqUVdecFaoQVYhnSBv3BLw.CLv.CKJjPBhLWYw8kbgQWYeEWcg4FcooWYhnSBvvhBIjfHyUVbew1aiEFahnSBwvhBIjfHyUVbeg1ayQmH5j.LrnPBIHxbkE2Wr81avIhNIDCKJjPBhLWYw8kbgQWYhnSBvvhBIjfHyUVbeIWXzk1ahnSBwvhBIjfHyUVbeIWXzU1WvIhNI.CKJjPBhLWYw80bzUFbyIhNIDiMrnPBIHxbkE2WyQWYvM2WvIhNI.CKJjPBhLWYw80alY1bkQmH5j.LrnPBIHxbkE2WuYlYyUFceAmH5j.LrnPBIHxbkE2WxElamUlH5jPLxvhBIjfHyUVbeEWcg4FcooWYhnSBvvhBIjfHyUVbecFaoQVYhnSBvvhBIjfHyUVbeA2chnSB0.CKJjPBhLWYw8kcgwVck8EYkwVX4IhNI.CKJjPBhLWYw8Eb0w1bk8EYkwVX4IhNI.CKJjPBhLWYw8kcgwVckAiH5j.LrnPBIHxbkE2W1EFa0UVLhnSBvvhBIjfHyUVbeYWXrUWYxHhNI.CKJjPBhLWYw8kcgwVckMiH5j.LrnPBIHxbkE2W1EFa0UFMhnSBvvhBIjfHyUVbeYWXrUWY0HhNI.CKJjPBhLWYw8kcgwVckYiH5j.LrnPBIHxbkE2W1EFa0U1MhnSBvvhBIjfHyUVbeYWXrUWY3HhNI.CKJjPBhLWYw8kcgwVckkiH5j.LrnPBIHxbkE2W1EFa0UVLvHhNI.CKJjPBhLWYw8kcgwVckESLhnSBvvhBIjfHyUVbeYWXrUWYwHiH5j.LrnPBIHxbkE2W1EFa0UVLyHhNI.CKJjPBhLWYw8kcgwVckECMhnSBvvhBIjfHyUVbeYWXrUWYwTiH5j.LrnPBIHxbkE2WvUGayUFLhnSBvvhBIjfHyUVbeAWcrMWYwHhNI.CKJjPBhLWYw8Eb0w1bkIiH5j.LrnPBIHxbkE2WvUGayU1LhnSBvvhBIjfHyUVbeAWcrMWYzHhNI.CKJjPBhLWYw8Eb0w1bkUiH5j.LrnPBIHxbkE2WvUGayUlMhnSBvvhBIjfHyUVbeAWcrMWY2HhNI.CKJjPBhLWYw8Eb0w1bkgiH5j.LrnPBIHxbkE2WvUGayUVNhnSBvvhBIjfHyUVbeAWcrMWYw.iH5j.LrnPBIHxbkE2WvUGayUVLwHhNI.CKJjPBhLWYw8Eb0w1bkEiLhnSBvvhBIjfHyUVbeAWcrMWYwLiH5j.LrnPBIHxbkE2WvUGayUVLzHhNI.CKJjPBhLWYw8Eb0w1bkESMhnSBvvhBIjfHrY1aeYlbkEmH5jPLrnPBIHBal81Wt8VZyUlH5j.LrnPBIHBal81WrUlckwlH5j.LrnPBIHBal81WrUlckw1WvIhNI.CKJjPBhvlYu8kYxUVbeAmH5j.LrnPBIHRYtYWLeEFczE1XqIhNI.iKv.SLv.CLrnPBIHRYtYWLeQVYiEVdhnSBwvhBIjfHk4lcw70b0MGcgklahnSBv3RMv.CLv.CKJjPBhTla1EyWxUFakE1bkIhNI.iK0.CLv.CLrnPBIHRYtYWLewVY1UFahnSBwvhBIjfHk4lcw7Ed1UFahnSBwvhBIjfHk4lcw7Ecxk1YeMWYrU1XzIhNIDCKJjPBhTla1EyWgQGcgM1ZeAmH5j.LrnPBIHRYtYWLeQVYiEVdeAmH5j.LrnPBIHRYtYWLeIWYrUVXyU1WvIhNI.CKJjPBhTla1IyWxUFbkEFchnSBvvhBIjfHk4lcx7EYkwVX4IhNI.CKJjPBhTla1IyWgQGcgM1ZhnSBv3BLvDCLv.CKJjPBhTla1IyWyU2bzEVZtIhNI.CKJjPBhTla1IyWxUFakE1bkIhNI.iKvDCLv.CLrnPBIHRYtYmLegmckwlH5j.LrnPBIHRYtYmLeQmboc1WyUFakMFchnSBwvhBIjfHk4lcx7Edk4lcwHhNIDCKJjPBhTla1IyWjUFagk2WvIhNI.CKJjPBhTla1IyWgQGcgM1ZeAmH5j.LrnPBIHRYtYmLeIWYvUVXz8EbhnSBwvhBIjfHuM2Xe41aoMWYhnSBvvhBIjfHuM2XeIWXzk1ahnSBwvhBIjfHuM2Xe8lYlMWYzIhNI.CKJjPBh71bi8UZtQVY3IhNI.CKJjPBh71bi8Eco0lXxUlH5j.LrnPBIHxayM1WvkFciglH5jfLx.CKJjPBh71bi80cgYWYygVXvUlH5j.LrnPBIHxayM1Wt8VZyU1WvIhNI.CKJjPBh71bi8kbgQWZu8EbhnSBvvhBIjfHuM2Xe8lYlMWYz8EbhnSBvvhBIjfHuM2XeklajUFdeAmH5j.LrnPBIHxayM1WzkVahIWYeAmH5j.LrnPBIHxayM1WvkFcig1WkgGbeAmH5jPLrnPBIHxayM1WvkFcig1WrklaeAmH5j.LrnPBIHxayM1W2ElckMGZgAWYeAmH5j.LrnPBIHxayM1WiElbxkVYx80a0QmH5j.LtTCLv.CLvvhBIjfHuM2Xe01aj80a0QmH5j.LrnPBIHxYgQWYewVY1UFahnSBvvhBIjfHmEFck8UauQVYhnSBvvhBIjfHmEFck8EYkMVX4IhNIDCKJjPBhbVXzU1WrUlckw1WvIhNIDCKJjPBhPVYrEVdeAWYgslYxUVbhnSBw.CLvvhBIjfHjUFagk2WjIWZ1UlH5j.LtTCLv.CLvvhBIjfHjUFagk2WvUVXqIWYyIhNI.CKJjPBhPVYrEVdeYVYkQlXgM1ZhnSBvvhBIjfHjUFagk2WlIWYwIhNIDSLvvhBIjfHjUFagk2Wo4Fb0Q2WvIhNI.iK0.CLv.CLrnPBIHBYkwVX48EbkE1ZlIWYw8EbhnSBwvhBIjfHjUFagk2WjIWZ1U1WvIhNI.CKJjPBhPVYrEVdeAWYgslbkM2WvIhNI.CKJjPBhPVYrEVdeYVYkQlXgM1ZeAmH5j.LrnPBIHBYkwVX48kYxUVbeAmH5jPLrnPBIHBYkwVX480a0QGb0Q2W2UFchnSBxvhBIjfHjUFagk2WuUGcvUGceQlb4IhNIDCKJjPBhXVZrQWYx80X0Q2alYlH5jfLv.CLvvhBIjfHlkFazUlbeEmH5j.LrnPBIHhYowFckI2WskFdhnSBsDCKJjPBhXVZrQWYx80X0Q2alY1WvIhNIDCKJjPBhXVZrQWYx8UbeAmH5j.LrnPBIHhYowFckI2WskFdeAmH5j.LrnPBIHxa0QGb0Q2Wo4Fb0Q2WmEVZtIhNIDCKJjPBh7VczAWcz8kbkYWYxIlH5j.LrnPBIHxa0QGb0Q2WvElahnSBvvhBIjfHuUGcvUGceIWY1Ulbh8EbhnSBvvhBIjfHuUGcvUGceAWXt8EbhnSBvvhBIjfHvEFcigVYx8UagQmbogmH5jvdJjPBIHBc4AWYhnSBhLWZm4VXrIBKJjPBIHxcoQFcnIhNIDCMrnPBIjfHnUVZmgFchnSByDCKJjPBIHBYkAGcnIhNIDCKJjPBIHBYgQWXhnSBaACKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKfDCKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKfDCKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.SWJjPB8whBIjfHqUVdeM2XgwVYhnSBhDiLsTVb0EFahvhBIjfHqUVde01aj8UavU1W3IhNIbyLrnPBIHxZkk2WhUlaj8UavUlH5j.M3vhBIjfHvIWYyUFchnSBhDTXrQ2afPVYlEVcrQmHrnPBIHRagsVYx8kag0VYhnSBhzTXjI2atEFHLElXyIBKJjPBhDFbv8kag0VYhnSBhDTXrQ2ahvhBIjfHgAGbeYWYxMWZu4lH5jfM2fCM0nPB8whBIHRYtYWZx8lasUlazIhNIrmBIjfHvI2az81XuwlH5j.LrnPBIHRYjkFcuI2Wg4VZsIhNIDCKJjPBhTFYoQ2ax8kXuUmajMmH5jvdJjPBIHBc4AWYhnSBhLWZm4VXrIBKJjPBIHxcoQFcnIhNIPCKJjPBIHBZkk1YnQmH5jPLrnPBIjfHjUFbzglH5jPLrnPBIjfHjEFcgIhNIrELr.BLr.RNwHCKfXiLzzkBIjPernPBIHRYjkFcuI2WtUWahnSBwvhBIjfHuM2XeA2axQ2WuYlYyUFchnSBvvhBIjfHsE1ZkI2WtEVakIhNIHRSgQlbu4VXfvTXhMmHrnPBIHRXvA2WtEVakIhNIHRPgwFcuUDYoQ2axIBKJjPBhDFbv8kckI2bo8lahnSB1bCNzTiBIzmB8A"
-														}
-,
-														"snapshotlist" : 														{
-															"current_snapshot" : 0,
-															"entries" : [ 																{
-																	"filetype" : "C74Snapshot",
-																	"version" : 2,
-																	"minorversion" : 0,
-																	"name" : "Aalto",
-																	"origin" : "Aalto.vstinfo",
-																	"type" : "VST",
-																	"subtype" : "Instrument",
-																	"embed" : 0,
-																	"snapshot" : 																	{
-																		"pluginname" : "Aalto.vstinfo",
-																		"plugindisplayname" : "Aalto",
-																		"pluginsavedname" : "",
-																		"pluginsaveduniqueid" : 1096903796,
-																		"version" : 1,
-																		"isbank" : 0,
-																		"isbase64" : 1,
-																		"blob" : "4870.CMlaKA....fQPMDZ....ADTXrQG...vv....A........................................Hgx6oPBh.WXzMFZhnSB6oPBIHBYkwVX48UZtAWczIhNI.CKJjPBhzVXyQWYx8Ec04VYhnSBzPCLrnPBIHxbkE2WzIWZmIhNI.CKJjPBhrVY48kcuk1XkMmH5j.MrnPBIHxZkk2Ws8FYhnSBwvhBIjfHqUVdeIVYtQlH5jvMrnPBIHxZkk2W04VZy8lahnSBvvhBIjfHqUVdecFaoQVYhnSBv3BLw.CLv.CKJjPBhLWYw8kbgQWYeEWcg4FcooWYhnSBvvhBIjfHyUVbew1aiEFahnSBwvhBIjfHyUVbeg1ayQmH5j.LrnPBIHxbkE2Wr81avIhNIDCKJjPBhLWYw8kbgQWYhnSBvvhBIjfHyUVbeIWXzk1ahnSBwvhBIjfHyUVbeIWXzU1WvIhNI.CKJjPBhLWYw80bzUFbyIhNIDiMrnPBIHxbkE2WyQWYvM2WvIhNI.CKJjPBhLWYw80alY1bkQmH5j.LrnPBIHxbkE2WuYlYyUFceAmH5j.LrnPBIHxbkE2WxElamUlH5jPLxvhBIjfHyUVbeEWcg4FcooWYhnSBvvhBIjfHyUVbecFaoQVYhnSBvvhBIjfHyUVbeA2chnSB0.CKJjPBhLWYw8kcgwVck8EYkwVX4IhNI.CKJjPBhLWYw8Eb0w1bk8EYkwVX4IhNI.CKJjPBhLWYw8kcgwVckAiH5j.LrnPBIHxbkE2W1EFa0UVLhnSBvvhBIjfHyUVbeYWXrUWYxHhNI.CKJjPBhLWYw8kcgwVckMiH5j.LrnPBIHxbkE2W1EFa0UFMhnSBvvhBIjfHyUVbeYWXrUWY0HhNI.CKJjPBhLWYw8kcgwVckYiH5j.LrnPBIHxbkE2W1EFa0U1MhnSBvvhBIjfHyUVbeYWXrUWY3HhNI.CKJjPBhLWYw8kcgwVckkiH5j.LrnPBIHxbkE2W1EFa0UVLvHhNI.CKJjPBhLWYw8kcgwVckESLhnSBvvhBIjfHyUVbeYWXrUWYwHiH5j.LrnPBIHxbkE2W1EFa0UVLyHhNI.CKJjPBhLWYw8kcgwVckECMhnSBvvhBIjfHyUVbeYWXrUWYwTiH5j.LrnPBIHxbkE2WvUGayUFLhnSBvvhBIjfHyUVbeAWcrMWYwHhNI.CKJjPBhLWYw8Eb0w1bkIiH5j.LrnPBIHxbkE2WvUGayU1LhnSBvvhBIjfHyUVbeAWcrMWYzHhNI.CKJjPBhLWYw8Eb0w1bkUiH5j.LrnPBIHxbkE2WvUGayUlMhnSBvvhBIjfHyUVbeAWcrMWY2HhNI.CKJjPBhLWYw8Eb0w1bkgiH5j.LrnPBIHxbkE2WvUGayUVNhnSBvvhBIjfHyUVbeAWcrMWYw.iH5j.LrnPBIHxbkE2WvUGayUVLwHhNI.CKJjPBhLWYw8Eb0w1bkEiLhnSBvvhBIjfHyUVbeAWcrMWYwLiH5j.LrnPBIHxbkE2WvUGayUVLzHhNI.CKJjPBhLWYw8Eb0w1bkESMhnSBvvhBIjfHrY1aeYlbkEmH5jPLrnPBIHBal81Wt8VZyUlH5j.LrnPBIHBal81WrUlckwlH5j.LrnPBIHBal81WrUlckw1WvIhNI.CKJjPBhvlYu8kYxUVbeAmH5j.LrnPBIHRYtYWLeEFczE1XqIhNI.iKv.SLv.CLrnPBIHRYtYWLeQVYiEVdhnSBwvhBIjfHk4lcw70b0MGcgklahnSBv3RMv.CLv.CKJjPBhTla1EyWxUFakE1bkIhNI.iK0.CLv.CLrnPBIHRYtYWLewVY1UFahnSBwvhBIjfHk4lcw7Ed1UFahnSBwvhBIjfHk4lcw7Ecxk1YeMWYrU1XzIhNIDCKJjPBhTla1EyWgQGcgM1ZeAmH5j.LrnPBIHRYtYWLeQVYiEVdeAmH5j.LrnPBIHRYtYWLeIWYrUVXyU1WvIhNI.CKJjPBhTla1IyWxUFbkEFchnSBvvhBIjfHk4lcx7EYkwVX4IhNI.CKJjPBhTla1IyWgQGcgM1ZhnSBv3BLvDCLv.CKJjPBhTla1IyWyU2bzEVZtIhNI.CKJjPBhTla1IyWxUFakE1bkIhNI.iKvDCLv.CLrnPBIHRYtYmLegmckwlH5j.LrnPBIHRYtYmLeQmboc1WyUFakMFchnSBwvhBIjfHk4lcx7Edk4lcwHhNIDCKJjPBhTla1IyWjUFagk2WvIhNI.CKJjPBhTla1IyWgQGcgM1ZeAmH5j.LrnPBIHRYtYmLeIWYvUVXz8EbhnSBwvhBIjfHuM2Xe41aoMWYhnSBvvhBIjfHuM2XeIWXzk1ahnSBwvhBIjfHuM2Xe8lYlMWYzIhNI.CKJjPBh71bi8UZtQVY3IhNI.CKJjPBh71bi8Eco0lXxUlH5j.LrnPBIHxayM1WvkFciglH5jfLx.CKJjPBh71bi80cgYWYygVXvUlH5j.LrnPBIHxayM1Wt8VZyU1WvIhNI.CKJjPBh71bi8kbgQWZu8EbhnSBvvhBIjfHuM2Xe8lYlMWYz8EbhnSBvvhBIjfHuM2XeklajUFdeAmH5j.LrnPBIHxayM1WzkVahIWYeAmH5j.LrnPBIHxayM1WvkFcig1WkgGbeAmH5jPLrnPBIHxayM1WvkFcig1WrklaeAmH5j.LrnPBIHxayM1W2ElckMGZgAWYeAmH5j.LrnPBIHxayM1WiElbxkVYx80a0QmH5j.LtTCLv.CLvvhBIjfHuM2Xe01aj80a0QmH5j.LrnPBIHxYgQWYewVY1UFahnSBvvhBIjfHmEFck8UauQVYhnSBvvhBIjfHmEFck8EYkMVX4IhNIDCKJjPBhbVXzU1WrUlckw1WvIhNIDCKJjPBhPVYrEVdeAWYgslYxUVbhnSBw.CLvvhBIjfHjUFagk2WjIWZ1UlH5j.LtTCLv.CLvvhBIjfHjUFagk2WvUVXqIWYyIhNI.CKJjPBhPVYrEVdeYVYkQlXgM1ZhnSBvvhBIjfHjUFagk2WlIWYwIhNIDSLvvhBIjfHjUFagk2Wo4Fb0Q2WvIhNI.iK0.CLv.CLrnPBIHBYkwVX48EbkE1ZlIWYw8EbhnSBwvhBIjfHjUFagk2WjIWZ1U1WvIhNI.CKJjPBhPVYrEVdeAWYgslbkM2WvIhNI.CKJjPBhPVYrEVdeYVYkQlXgM1ZeAmH5j.LrnPBIHBYkwVX48kYxUVbeAmH5jPLrnPBIHBYkwVX480a0QGb0Q2W2UFchnSBxvhBIjfHjUFagk2WuUGcvUGceQlb4IhNIDCKJjPBhXVZrQWYx80X0Q2alYlH5jfLv.CLvvhBIjfHlkFazUlbeEmH5j.LrnPBIHhYowFckI2WskFdhnSBsDCKJjPBhXVZrQWYx80X0Q2alY1WvIhNIDCKJjPBhXVZrQWYx8UbeAmH5j.LrnPBIHhYowFckI2WskFdeAmH5j.LrnPBIHxa0QGb0Q2Wo4Fb0Q2WmEVZtIhNIDCKJjPBh7VczAWcz8kbkYWYxIlH5j.LrnPBIHxa0QGb0Q2WvElahnSBvvhBIjfHuUGcvUGceIWY1Ulbh8EbhnSBvvhBIjfHuUGcvUGceAWXt8EbhnSBvvhBIjfHvEFcigVYx8UagQmbogmH5jvdJjPBIHBc4AWYhnSBhLWZm4VXrIBKJjPBIHxcoQFcnIhNIDCMrnPBIjfHnUVZmgFchnSByDCKJjPBIHBYkAGcnIhNIDCKJjPBIHBYgQWXhnSBaACKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKfDCKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKfDCKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.CKf.SWJjPB8whBIjfHqUVdeM2XgwVYhnSBhDiLsTVb0EFahvhBIjfHqUVde01aj8UavU1W3IhNIbyLrnPBIHxZkk2WhUlaj8UavUlH5j.M3vhBIjfHvIWYyUFchnSBhDTXrQ2afPVYlEVcrQmHrnPBIHRagsVYx8kag0VYhnSBhzTXjI2atEFHLElXyIBKJjPBhDFbv8kag0VYhnSBhDTXrQ2ahvhBIjfHgAGbeYWYxMWZu4lH5jfM2fCM0nPB8whBIHRYtYWZx8lasUlazIhNIrmBIjfHvI2az81XuwlH5j.LrnPBIHRYjkFcuI2Wg4VZsIhNIDCKJjPBhTFYoQ2ax8kXuUmajMmH5jvdJjPBIHBc4AWYhnSBhLWZm4VXrIBKJjPBIHxcoQFcnIhNIPCKJjPBIHBZkk1YnQmH5jPLrnPBIjfHjUFbzglH5jPLrnPBIjfHjEFcgIhNIrELr.BLr.RNwHCKfXiLzzkBIjPernPBIHRYjkFcuI2WtUWahnSBwvhBIjfHuM2XeA2axQ2WuYlYyUFchnSBvvhBIjfHsE1ZkI2WtEVakIhNIHRSgQlbu4VXfvTXhMmHrnPBIHRXvA2WtEVakIhNIHRPgwFcuUDYoQ2axIBKJjPBhDFbv8kckI2bo8lahnSB1bCNzTiBIzmB8A"
-																	}
-,
-																	"fileref" : 																	{
-																		"name" : "Aalto",
-																		"filename" : "Aalto.maxsnap",
-																		"filepath" : "~/Documents/Max 8/Snapshots",
-																		"filepos" : -1,
-																		"snapshotfileid" : "af3e1e13be985327edf7e40c427180b0"
-																	}
-
-																}
- ]
-														}
-
 													}
 ,
 													"text" : "vst~",
@@ -4032,7 +3995,7 @@
 									"allowdrag" : 0,
 									"hidden" : 1,
 									"id" : "obj-22",
-									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Tidal", ",", "Sampler", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "IAC Driver IAC 1", ",", "IAC Driver IAC CLOCK", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "Arturia KeyStep 32", ",", "Midi Fighter Spectra", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5459,8 +5422,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5516,7 +5479,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 375.0, 198.0, 79.0, 23.0 ],
+									"patching_rect" : [ 375.0, 198.0, 93.0, 23.0 ],
 									"text" : "r #0-arcLEDs"
 								}
 
@@ -5528,7 +5491,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 390.0, 79.0, 23.0 ],
+									"patching_rect" : [ 30.0, 390.0, 94.0, 23.0 ],
 									"text" : "s #0-arcLEDs"
 								}
 
@@ -7035,14 +6998,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
+						"rect" : [ 278.0, 126.0, 686.0, 492.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7204,14 +7167,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 104.0, 424.0, 480.0 ],
+										"rect" : [ 807.0, 561.0, 502.0, 518.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -7240,6 +7203,66 @@
 										"subpatcher_template" : "lekton_snap",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 60.0, 405.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 59.0, 435.0, 92.0, 18.0 ],
+													"text" : "textcolor 0 0.5 0 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 375.0, 375.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 375.0, 406.0, 84.0, 18.0 ],
+													"text" : "textcolor 1 0 0 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "bang" ],
+													"patching_rect" : [ 30.0, 45.0, 29.5, 18.0 ],
+													"text" : "b 2"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontface" : 0,
 													"fontname" : "Lekton",
@@ -7279,7 +7302,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 187.0, 353.0, 158.0, 20.0 ],
+													"patching_rect" : [ 255.0, 315.0, 158.0, 20.0 ],
 													"text" : "serialosc is not detected"
 												}
 
@@ -7294,7 +7317,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 52.0, 391.0, 128.0, 20.0 ],
+													"patching_rect" : [ 52.0, 356.0, 128.0, 20.0 ],
 													"text" : "serialosc is running"
 												}
 
@@ -7309,7 +7332,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 30.0, 353.0, 134.0, 20.0 ],
+													"patching_rect" : [ 30.0, 315.0, 134.0, 20.0 ],
 													"text" : "serialosc is disabled"
 												}
 
@@ -7324,7 +7347,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 30.0, 310.0, 73.0, 20.0 ],
+													"patching_rect" : [ 30.0, 275.0, 73.0, 20.0 ],
 													"text" : "sel 0 1"
 												}
 
@@ -7368,7 +7391,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.0, 99.0, 237.0, 20.0 ],
+													"patching_rect" : [ 75.0, 120.0, 237.0, 20.0 ],
 													"text" : "/serialosc/list localhost 12082"
 												}
 
@@ -7383,7 +7406,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 30.0, 58.0, 215.0, 20.0 ],
+													"patching_rect" : [ 36.0, 79.0, 215.0, 20.0 ],
 													"text" : "/serialosc/status localhost 12082"
 												}
 
@@ -7432,6 +7455,36 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"order" : 0,
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"order" : 1,
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"source" : [ "obj-1", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"source" : [ "obj-12", 0 ]
 												}
@@ -7454,6 +7507,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-29", 0 ],
+													"order" : 1,
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"order" : 0,
 													"source" : [ "obj-15", 0 ]
 												}
 
@@ -7481,7 +7543,8 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-29", 0 ],
+													"destination" : [ "obj-10", 0 ],
+													"order" : 1,
 													"source" : [ "obj-23", 0 ]
 												}
 
@@ -7489,6 +7552,23 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-29", 0 ],
+													"order" : 0,
+													"source" : [ "obj-23", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"order" : 1,
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"order" : 0,
 													"source" : [ "obj-25", 0 ]
 												}
 
@@ -7502,16 +7582,14 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
-													"order" : 0,
-													"source" : [ "obj-30", 0 ]
+													"destination" : [ "obj-24", 0 ],
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"order" : 1,
+													"destination" : [ "obj-1", 0 ],
 													"source" : [ "obj-30", 0 ]
 												}
 
@@ -7520,6 +7598,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -7550,8 +7642,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 550.0, 15.0, 123.0, 21.0 ],
-									"text" : "serialosc is running"
+									"patching_rect" : [ 550.0, 15.0, 138.0, 21.0 ],
+									"text" : "serialosc is not detected",
+									"textcolor" : [ 0.0, 0.5, 0.0, 1.0 ]
 								}
 
 							}
@@ -7570,8 +7663,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7630,8 +7723,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 4,
+															"minor" : 6,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8809,8 +8902,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8873,8 +8966,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9882,13 +9975,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Aalto.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -9896,14 +9982,14 @@
 			}
 , 			{
 				"name" : "monome-device.js",
-				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"bootpath" : "~/GITHUB/cassiel/monome-max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monome-device.maxpat",
-				"bootpath" : "~/Documents/GitHub/monome-max-package/patchers",
+				"bootpath" : "~/GITHUB/cassiel/monome-max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
