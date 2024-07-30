@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -50,7 +50,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -114,7 +114,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1329,7 +1329,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2614,7 +2614,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -3854,7 +3854,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -4071,7 +4071,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
+											"minor" : 6,
 											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -4124,7 +4124,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.0, 87.0, 59.0, 22.0 ],
 													"text" : "random 3"
 												}
@@ -4136,7 +4136,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 13.5, 87.0, 59.0, 22.0 ],
 													"text" : "random 7"
 												}
@@ -5286,7 +5286,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -6498,7 +6498,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -6648,7 +6648,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
+											"minor" : 6,
 											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -7019,6 +7019,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "umenu",
 											"parameter_mmax" : 2,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -7856,7 +7857,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -7983,7 +7984,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
+											"minor" : 6,
 											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -8018,6 +8019,7 @@
 										"style" : "",
 										"subpatcher_template" : "lekton_snap",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-16",
@@ -8026,7 +8028,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 15.0, 210.0, 93.0, 18.0 ],
+													"patching_rect" : [ 15.0, 210.0, 91.0, 28.0 ],
 													"text" : "prepend tell_crow"
 												}
 
@@ -8038,8 +8040,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 225.0, 150.0, 33.0, 18.0 ],
-													"text" : "del 2"
+													"patching_rect" : [ 225.0, 150.0, 38.0, 18.0 ],
+													"text" : "del 10"
 												}
 
 											}
@@ -8063,7 +8065,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 15.0, 150.0, 48.0, 18.0 ],
+													"patching_rect" : [ 15.0, 150.0, 46.0, 28.0 ],
 													"text" : "zl.queue"
 												}
 
@@ -8265,7 +8267,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-14", 0 ],
-													"midpoints" : [ 53.5, 178.0, 84.0, 178.0, 84.0, 139.0, 114.5, 139.0 ],
+													"midpoints" : [ 51.5, 178.0, 84.0, 178.0, 84.0, 139.0, 114.5, 139.0 ],
 													"source" : [ "obj-13", 1 ]
 												}
 
@@ -9457,7 +9459,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -9799,7 +9801,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 550.0, 301.0, 70.0, 21.0 ],
 									"text" : "random 501"
 								}
@@ -10148,7 +10150,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 550.0, 150.0, 76.0, 21.0 ],
 									"text" : "random 1001"
 								}
@@ -11002,7 +11004,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -12371,15 +12373,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "crow.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/crow_max",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/monome/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "crow.n2v.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/crow_max/abstractions",
-				"patcherrelativepath" : "../abstractions",
+				"bootpath" : "~/Max 8/Packages/monome/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/monome/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
