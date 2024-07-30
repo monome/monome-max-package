@@ -100,7 +100,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 893.0, 163.0, 640.0, 480.0 ],
+						"rect" : [ 838.0, 163.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -128,6 +128,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -289,8 +290,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 163.0, 48.0, 117.0, 22.0 ],
-									"text" : "udpreceive 6666"
+									"patching_rect" : [ 163.0, 48.0, 95.0, 22.0 ],
+									"text" : "udpreceive 1111"
 								}
 
 							}
@@ -571,7 +572,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 108.0, 173.0, 188.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "repack coordinates and brightness"
 								}
 
@@ -583,7 +583,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 120.0, 134.0, 259.0, 21.0 ],
-									"presentation_linecount" : 3,
 									"text" : "multiply press state (1 or 0) by 15 for brightness"
 								}
 
@@ -595,7 +594,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 108.0, 96.0, 197.0, 21.0 ],
-									"presentation_linecount" : 4,
 									"text" : "break out coordinate and press data"
 								}
 
@@ -1350,7 +1348,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.0, 364.0, 174.0, 22.0 ],
-					"text" : "/serialosc/list $1 6666"
+					"text" : "/serialosc/list $1 1111"
 				}
 
 			}
@@ -1459,7 +1457,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.0, 217.0, 73.0, 22.0 ],
+					"patching_rect" : [ 143.0, 217.0, 88.0, 22.0 ],
 					"text" : "s #0-host"
 				}
 
@@ -1638,35 +1636,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "untitled_20240618.maxsnap",
 				"bootpath" : "~/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "untitled_20240618_1.maxsnap",
 				"bootpath" : "~/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "untitled_20240618_2.maxsnap",
 				"bootpath" : "~/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "untitled_20240618_3.maxsnap",
 				"bootpath" : "~/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "untitled_20240618_4.maxsnap",
 				"bootpath" : "~/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
