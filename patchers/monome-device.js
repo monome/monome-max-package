@@ -251,7 +251,7 @@ function rescan() {
 	outlet(1, "/serialosc/notify", "localhost", in_port);
 	outlet(3, "clear");
 	outlet(3, "append", "none");
-	outlet(3, "textcolor", 1.0, 1.0, 1.0, 0.3);
+	// outlet(3, "textcolor", 1.0, 1.0, 1.0, 0.3);
 	
 	ports = [];
 	devices = [];
@@ -291,7 +291,7 @@ function osc() {
 	
 	else if(arguments[0] == "/sys/port" && arguments[1] != in_port) {
 		outlet(3, "set", 0);
-		outlet(3, "textcolor", 1.0, 1.0, 1.0, 0.3);
+		// outlet(3, "textcolor", 1.0, 1.0, 1.0, 0.3);
 		connected = 0;
 	}
 	
@@ -307,7 +307,7 @@ function osc() {
 
 function menu(i) {
 	if(i != 0) {
-		outlet(3, "textcolor", 1.0, 1.0, 1.0, 1.0);
+		// outlet(3, "textcolor", 1.0, 1.0, 1.0, 1.0);
 		outlet(2, "port", ports[i-1]);
 		outlet(2, "/sys/port", in_port);
 		outlet(2, "/sys/prefix", prefix);

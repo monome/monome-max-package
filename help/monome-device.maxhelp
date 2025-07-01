@@ -2,44 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 34.0, 100.0, 686.0, 518.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
+		"openrect" : [ 34.0, 100.0, 690.0, 518.0 ],
 		"default_fontface" : 1,
 		"default_fontname" : "Lekton",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 686.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
+		"devicewidth" : 690.0,
 		"subpatcher_template" : "lekton_snap",
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -51,43 +30,20 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
+						"rect" : [ 0.0, 26.0, 690.0, 492.0 ],
 						"default_fontname" : "Andale Mono",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "lekton_snap",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
@@ -95,7 +51,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 375.0, 106.0, 21.0 ],
+									"patching_rect" : [ 15.0, 375.0, 109.0, 21.0 ],
 									"text" : "STUDY PATCHERS"
 								}
 
@@ -802,42 +758,19 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Andale Mono",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 2,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
 										"subpatcher_template" : "lekton_snap",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-7",
@@ -862,42 +795,25 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
-															"revision" : 4,
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
 														"rect" : [ 31.0, 77.0, 209.0, 164.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
 														"default_fontname" : "Arial Bold",
 														"gridonopen" : 2,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 2,
 														"toptoolbarpinned" : 2,
 														"righttoolbarpinned" : 2,
 														"bottomtoolbarpinned" : 2,
 														"toolbars_unpinned_last_save" : 15,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
 														"subpatcher_template" : "PeteSubDefault10",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"background" : 1,
@@ -909,7 +825,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 100.0, 118.0, 31.0 ],
-																	"text" : ";\rmax launchbrowser $1"
+																	"text" : ";\r\nmax launchbrowser $1"
 																}
 
 															}
@@ -942,12 +858,8 @@
 ,
 													"patching_rect" : [ 50.0, 255.0, 71.0, 23.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
 														"fontname" : "Arial Bold",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p browser"
@@ -1041,11 +953,7 @@
 ,
 									"patching_rect" : [ 315.0, 345.0, 53.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontname" : "Andale Mono",
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Andale Mono"
 									}
 ,
 									"text" : "p helpUI"
@@ -1068,12 +976,27 @@
 									"outlettype" : [ "", "", "int" ],
 									"outputmode" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.264007568359375, 352.099970817565918, 237.735992431640625, 22.400029182434082 ],
+									"patching_rect" : [ 10.264007568359375, 352.099970817565918, 238.64801025390625, 22.40000057220459 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+,
+										"textoncolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+,
+										"textovercolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "FULL LENGTH STUDY TEXT (click to visit)",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"texton" : "FULL LENGTH STUDY TEXT (click to visit)",
-									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+									"textovercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"usetextovercolor" : 1
 								}
 
@@ -1087,7 +1010,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 555.0, 132.0, 23.0 ],
+									"patching_rect" : [ 13.0, 555.0, 133.0, 23.0 ],
 									"text" : "load arc-howto.maxpat"
 								}
 
@@ -1221,7 +1144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 525.0, 136.0, 23.0 ],
+									"patching_rect" : [ 15.0, 525.0, 137.0, 23.0 ],
 									"text" : "load grid-howto.maxpat"
 								}
 
@@ -1639,9 +1562,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 439.0, 223.0 ],
-									"text" : "ADDITIONAL EXAMPLES\n\n                                         <~ cyclic polyrhythm music box (grid)\n\n                                         <~ rhizomatic cascading counter (grid)\n\n                                         <~ live step sequencer (grid)\n\n                                         <~ performative physics-based controller generator (grid)\n\n                                         <~ isometric keyboard (grid)\n\n                                         <~ knob routing with integrated LFOs (arc)\n\n   HOW-TO'S",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 15.0, 75.0, 439.0, 222.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "ADDITIONAL EXAMPLES\n\n                                         <~ cyclic polyrhythm music box (grid)\n\n                                         <~ rhizomatic cascading counter (grid)\n\n                                         <~ live step sequencer (grid)\n\n                                         <~ performative physics-based controller generator (grid)\n\n                                         <~ isometric keyboard (grid)\n\n                                         <~ knob routing with integrated LFOs (arc)\n\n   HOW-TO'S"
 								}
 
 							}
@@ -2518,19 +2447,43 @@
 								"multi" : 0
 							}
  ],
-						"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"bgcolor" : 							{
+								"expression" : "themecolor.theme_bgcolor"
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : "themecolor.theme_editing_bgcolor"
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : "themecolor.live_surface_bg"
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 105.0, 180.0, 136.0, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : "themecolor.theme_editing_bgcolor"
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : "themecolor.live_surface_bg"
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Andale Mono",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
 					}
 ,
 					"text" : "p \"additional resources\""
@@ -2548,43 +2501,21 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
-						"bglocked" : 0,
+						"rect" : [ 34.0, 126.0, 690.0, 492.0 ],
 						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Andale Mono",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "lekton_snap",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -2592,7 +2523,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 803.0, 772.0, 73.0, 22.0 ],
+									"patching_rect" : [ 803.0, 772.0, 73.0, 23.0 ],
 									"text" : "sprintf 0"
 								}
 
@@ -2604,7 +2535,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 794.5, 745.0, 66.0, 22.0 ],
+									"patching_rect" : [ 794.5, 745.0, 66.0, 23.0 ],
 									"text" : "delay 50"
 								}
 
@@ -2616,7 +2547,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 388.0, 249.0, 189.0, 22.0 ],
+									"patching_rect" : [ 388.0, 249.0, 189.0, 23.0 ],
 									"text" : "/grid_midi/grid/led/all 0"
 								}
 
@@ -2628,7 +2559,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 831.0, 488.0, 66.0, 22.0 ],
+									"patching_rect" : [ 831.0, 488.0, 66.0, 23.0 ],
 									"text" : "loadbang"
 								}
 
@@ -2643,6 +2574,13 @@
 									"patching_rect" : [ 360.0, 450.0, 41.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 353.0, 49.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "plugin\n",
 									"varname" : "pluginlabel"
 								}
@@ -2659,6 +2597,13 @@
 									"patching_rect" : [ 414.0, 450.0, 31.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 353.0, 40.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "midi\n",
 									"varname" : "midilabel"
 								}
@@ -2674,6 +2619,13 @@
 									"patching_rect" : [ 960.0, 530.0, 45.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 302.0, 130.0, 21.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "output"
 								}
 
@@ -2685,7 +2637,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 695.0, 796.0, 88.0, 22.0 ],
+									"patching_rect" : [ 695.0, 796.0, 88.0, 23.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -2701,42 +2653,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 421.0, 325.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontface" : 1,
@@ -3073,14 +2999,10 @@
 										"editing_bgcolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 695.0, 756.0, 95.0, 22.0 ],
+									"patching_rect" : [ 695.0, 756.0, 95.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
 										"editing_bgcolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
-										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
-										"tags" : ""
+										"locked_bgcolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ]
 									}
 ,
 									"text" : "p visibility"
@@ -3144,42 +3066,18 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
-										"bglocked" : 0,
 										"openinpresentation" : 1,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
 										"statusbarvisible" : 0,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-36",
@@ -3547,6 +3445,48 @@
 														"parameter_mappable" : 0
 													}
 ,
+													"snapshot" : 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "snapshotlist",
+														"origin" : "vst~",
+														"type" : "list",
+														"subtype" : "Undefined",
+														"embed" : 1,
+														"snapshot" : 														{
+
+														}
+,
+														"snapshotlist" : 														{
+															"current_snapshot" : 0,
+															"entries" : [ 																{
+																	"filetype" : "C74Snapshot",
+																	"version" : 2,
+																	"minorversion" : 0,
+																	"name" : "",
+																	"origin" : "",
+																	"type" : "AudioUnit",
+																	"subtype" : "AudioEffect",
+																	"embed" : 0,
+																	"snapshot" : 																	{
+
+																	}
+,
+																	"fileref" : 																	{
+																		"name" : "",
+																		"filename" : ".maxsnap",
+																		"filepath" : "~/OneDrive/Documents/Max 9/Snapshots",
+																		"filepos" : -1,
+																		"snapshotfileid" : "7cafa1eb330e3789cb6cf80bec8ae78f"
+																	}
+
+																}
+ ]
+														}
+
+													}
+,
 													"text" : "vst~",
 													"viewvisibility" : 0
 												}
@@ -3888,7 +3828,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 906.0, 620.0, 39.0, 22.0 ],
+									"patching_rect" : [ 906.0, 620.0, 39.0, 23.0 ],
 									"text" : "gate"
 								}
 
@@ -3900,7 +3840,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 662.0, 657.0, 39.0, 22.0 ],
+									"patching_rect" : [ 662.0, 657.0, 39.0, 23.0 ],
 									"text" : "gate"
 								}
 
@@ -3912,7 +3852,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 871.0, 583.0, 39.0, 22.0 ],
+									"patching_rect" : [ 871.0, 583.0, 40.0, 23.0 ],
 									"text" : "== 1"
 								}
 
@@ -3924,7 +3864,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 808.0, 583.0, 39.0, 22.0 ],
+									"patching_rect" : [ 808.0, 583.0, 40.0, 23.0 ],
 									"text" : "== 0"
 								}
 
@@ -3938,9 +3878,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 814.0, 530.0, 132.0, 22.0 ],
+									"patching_rect" : [ 814.0, 530.0, 132.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 324.0, 132.0, 22.0 ],
+									"presentation_rect" : [ 15.0, 324.0, 132.0, 23.0 ],
 									"varname" : "output-mode"
 								}
 
@@ -3951,7 +3891,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 871.0, 735.0, 61.0, 22.0 ],
+									"patching_rect" : [ 871.0, 735.0, 61.0, 23.0 ],
 									"text" : "noteout"
 								}
 
@@ -3985,7 +3925,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 779.0, 685.0, 68.0, 22.0 ],
+									"patching_rect" : [ 779.0, 685.0, 68.0, 23.0 ],
 									"text" : "loadbang"
 								}
 
@@ -3995,15 +3935,15 @@
 									"allowdrag" : 0,
 									"hidden" : 1,
 									"id" : "obj-22",
-									"items" : [ "AU DLS Synth 1", ",", "IAC Driver IAC 1", ",", "IAC Driver IAC CLOCK", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "Arturia KeyStep 32", ",", "Midi Fighter Spectra", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : "Microsoft GS Wavetable Synth",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 827.5, 657.0, 196.0, 22.0 ],
+									"patching_rect" : [ 827.5, 657.0, 196.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 375.0, 196.0, 22.0 ],
+									"presentation_rect" : [ 15.0, 375.0, 196.0, 23.0 ],
 									"varname" : "midiport"
 								}
 
@@ -4017,7 +3957,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 779.0, 712.0, 68.0, 22.0 ],
+									"patching_rect" : [ 779.0, 712.0, 68.0, 23.0 ],
 									"text" : "midiinfo"
 								}
 
@@ -4029,7 +3969,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 757.0, 499.0, 52.0, 22.0 ],
+									"patching_rect" : [ 757.0, 499.0, 52.0, 23.0 ],
 									"text" : "r trig"
 								}
 
@@ -4041,7 +3981,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 770.0, 88.0, 22.0 ],
+									"patching_rect" : [ 53.0, 770.0, 88.0, 23.0 ],
 									"text" : "loadmess 48"
 								}
 
@@ -4053,7 +3993,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 16.0, 829.0, 30.0, 22.0 ],
+									"patching_rect" : [ 16.0, 829.0, 30.0, 23.0 ],
 									"text" : "+ 0"
 								}
 
@@ -4066,7 +4006,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 27.0, 798.0, 50.0, 22.0 ]
+									"patching_rect" : [ 27.0, 798.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -4077,7 +4017,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 705.0, 37.0, 22.0 ],
+									"patching_rect" : [ 20.0, 705.0, 37.0, 23.0 ],
 									"text" : "pack"
 								}
 
@@ -4089,7 +4029,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 735.0, 196.0, 22.0 ],
+									"patching_rect" : [ 20.0, 735.0, 196.0, 23.0 ],
 									"text" : "expr ((7-($i2))*5) + ($i1)"
 								}
 
@@ -4104,6 +4044,13 @@
 									"patching_rect" : [ 120.0, 249.0, 30.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 75.0, 30.0, 21.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "grid"
 								}
 
@@ -4118,6 +4065,13 @@
 									"patching_rect" : [ 45.0, 225.0, 75.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 38.0, 277.0, 128.0, 21.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
 									"text" : "toggle mode"
 								}
 
@@ -4129,7 +4083,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 240.0, 705.0, 47.0, 22.0 ],
+									"patching_rect" : [ 240.0, 705.0, 47.0, 23.0 ],
 									"text" : "* 127"
 								}
 
@@ -4141,7 +4095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 171.0, 210.0, 239.0, 22.0 ],
+									"patching_rect" : [ 171.0, 210.0, 239.0, 23.0 ],
 									"text" : "/grid_midi/grid/led/set $1 $2 $3"
 								}
 
@@ -4153,7 +4107,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 180.0, 83.0, 22.0 ],
+									"patching_rect" : [ 20.0, 180.0, 83.0, 23.0 ],
 									"text" : "loadmess 0"
 								}
 
@@ -4165,7 +4119,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 20.0, 270.0, 32.0, 22.0 ],
+									"patching_rect" : [ 20.0, 270.0, 32.0, 23.0 ],
 									"text" : "+ 1"
 								}
 
@@ -4191,7 +4145,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 20.0, 315.0, 54.0, 22.0 ],
+									"patching_rect" : [ 20.0, 315.0, 54.0, 23.0 ],
 									"text" : "gate 2"
 								}
 
@@ -4203,7 +4157,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 55.0, 405.0, 61.0, 22.0 ],
+									"patching_rect" : [ 55.0, 405.0, 61.0, 23.0 ],
 									"text" : "route 1"
 								}
 
@@ -4215,7 +4169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 368.0, 68.0, 22.0 ],
+									"patching_rect" : [ 55.0, 368.0, 68.0, 23.0 ],
 									"text" : "$3 $1 $2"
 								}
 
@@ -4227,7 +4181,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 442.0, 75.0, 22.0 ],
+									"patching_rect" : [ 55.0, 442.0, 75.0, 23.0 ],
 									"text" : "$1 $2 inc"
 								}
 
@@ -4257,7 +4211,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 78.0, 870.0, 39.0, 22.0 ],
+									"patching_rect" : [ 78.0, 870.0, 39.0, 23.0 ],
 									"text" : "pack"
 								}
 
@@ -4268,7 +4222,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 915.0, 54.0, 22.0 ],
+									"patching_rect" : [ 78.0, 915.0, 54.0, 23.0 ],
 									"text" : "s trig"
 								}
 
@@ -4280,7 +4234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 20.0, 660.0, 280.0, 22.0 ],
+									"patching_rect" : [ 20.0, 660.0, 280.0, 23.0 ],
 									"text" : "unpack 0 0 0"
 								}
 
@@ -4292,7 +4246,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 165.0, 285.0, 189.0, 22.0 ],
+									"patching_rect" : [ 165.0, 285.0, 189.0, 23.0 ],
 									"text" : "route /grid_midi/grid/key"
 								}
 
@@ -4353,8 +4307,14 @@
 									"presentation" : 1,
 									"presentation_linecount" : 8,
 									"presentation_rect" : [ 240.0, 88.0, 390.0, 122.0 ],
-									"text" : "This example allows you to use a grid as an isometric  keyboard for output to a MIDI synth or plugin.\n\n1. Connect a grid and you should see it populate in the dropdown UI.\n\n2. Select a plugin or switch the output to 'midi'.\n\n3. Press keys on the grid to play notes (they're laid out like a guitar).",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "This example allows you to use a grid as an isometric  keyboard for output to a MIDI synth or plugin.\n\n1. Connect a grid and you should see it populate in the dropdown UI.\n\n2. Select a plugin or switch the output to 'midi'.\n\n3. Press keys on the grid to play notes (they're laid out like a guitar)."
 								}
 
 							}
@@ -5391,19 +5351,43 @@
 								"multi" : 0
 							}
  ],
-						"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"bgcolor" : 							{
+								"expression" : "themecolor.theme_bgcolor"
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : "themecolor.theme_editing_bgcolor"
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : "themecolor.live_surface_bg"
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 90.0, 150.0, 127.0, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : "themecolor.theme_editing_bgcolor"
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : "themecolor.live_surface_bg"
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Andale Mono",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
 					}
 ,
 					"text" : "p \"example: grid MIDI\""
@@ -5421,43 +5405,20 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
+						"rect" : [ 0.0, 26.0, 690.0, 492.0 ],
 						"default_fontname" : "Andale Mono",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "lekton_snap",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
@@ -5680,8 +5641,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 75.0, 600.0, 107.0 ],
-									"text" : "ARC TEST\n\n1. Connect an arc and you should see it populate in the dropdown UI.\n\n2. Turn each of the encoders on your arc.\n\n3. You'll see the four [numbers] change, as well as the brightness of the LEDs around each encoder.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "ARC TEST\n\n1. Connect an arc and you should see it populate in the dropdown UI.\n\n2. Turn each of the encoders on your arc.\n\n3. You'll see the four [numbers] change, as well as the brightness of the LEDs around each encoder."
 								}
 
 							}
@@ -5890,7 +5857,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 375.0, 405.0, 134.0, 23.0 ],
+									"patching_rect" : [ 375.0, 405.0, 136.0, 23.0 ],
 									"text" : "/arc-test/ring/all $1 $2"
 								}
 
@@ -5965,7 +5932,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 30.0, 229.0, 145.0, 23.0 ],
+									"patching_rect" : [ 30.0, 229.0, 147.0, 23.0 ],
 									"text" : "route /arc-test/enc/delta"
 								}
 
@@ -6967,19 +6934,43 @@
 								"multi" : 0
 							}
  ],
-						"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"bgcolor" : 							{
+								"expression" : "themecolor.theme_bgcolor"
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : "themecolor.theme_editing_bgcolor"
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : "themecolor.live_surface_bg"
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 75.0, 126.0, 72.0, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : "themecolor.theme_editing_bgcolor"
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : "themecolor.live_surface_bg"
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Andale Mono",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
 					}
 ,
 					"text" : "p \"arc test\""
@@ -6997,56 +6988,39 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 686.0, 492.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Andale Mono",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 690.0, 492.0 ],
+						"default_fontname" : "Lato",
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "lekton_snap",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-20",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 411.0, 551.0, 35.0 ],
-									"text" : "But this message has a different prefix! Even though it's connected to our [bpatcher], it won't affect our \"/monome\"-prefixed grid:",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 15.0, 411.0, 557.0, 35.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "But this message has a different prefix! Even though it's connected to our [bpatcher], it won't affect our \"/monome\"-prefixed grid:"
 								}
 
 							}
@@ -7059,7 +7033,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 445.0, 227.0, 23.0 ],
+									"patching_rect" : [ 15.0, 445.0, 231.0, 23.0 ],
 									"text" : "/differentPrefix/grid/led/level/set 0 0 15"
 								}
 
@@ -7073,7 +7047,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 495.0, 361.0, 134.0, 23.0 ],
+									"patching_rect" : [ 495.0, 361.0, 136.0, 23.0 ],
 									"text" : "/monome/grid/led/all 0"
 								}
 
@@ -7101,7 +7075,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 361.0, 194.0, 23.0 ],
+									"patching_rect" : [ 15.0, 361.0, 197.0, 23.0 ],
 									"text" : "/monome/grid/led/level/set 0 0 15"
 								}
 
@@ -7109,46 +7083,64 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 285.0, 559.0, 79.0 ],
-									"text" : "Unless you supply additional @args, communication to and from this [bpatcher] will carry the \"/monome\" prefix by default. Prefixes help us specify and route single-grid interactions across many patchers.\n\nFor example, these all redraw the selected grid:",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 15.0, 285.0, 547.0, 78.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "Unless you supply additional @args, communication to and from this [bpatcher] will carry the \"/monome\" prefix by default. Prefixes help us specify and route single-grid interactions across many patchers.\n\nFor example, these all redraw the selected grid:"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 220.0, 256.0, 343.0, 21.0 ],
-									"text" : "<~ This UI helper is instantiated via [bpatcher monome-device]",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 220.0, 256.0, 337.0, 21.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "<~ This UI helper is instantiated via [bpatcher monome-device]"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontface" : 1,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-68",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 211.0, 628.0, 21.0 ],
-									"text" : "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 15.0, 211.0, 607.0, 21.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 								}
 
 							}
@@ -7166,42 +7158,21 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 807.0, 561.0, 502.0, 518.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 1,
 										"default_fontname" : "Lekton",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 2,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
 										"subpatcher_template" : "lekton_snap",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-10",
@@ -7622,13 +7593,9 @@
 ,
 									"patching_rect" : [ 376.5, 15.0, 113.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
 										"fontface" : 1,
 										"fontname" : "Lekton",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p serialosc-checker"
@@ -7638,15 +7605,16 @@
 , 							{
 								"box" : 								{
 									"fontface" : 2,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 542.5, 16.0, 138.0, 21.0 ],
+									"patching_rect" : [ 550.0, 15.0, 131.0, 21.0 ],
 									"text" : "serialosc is running",
-									"textcolor" : [ 0.0, 0.5, 0.0, 1.0 ]
+									"textcolor" : [ 0.0, 0.5, 0.0, 1.0 ],
+									"textjustification" : 1
 								}
 
 							}
@@ -7664,42 +7632,19 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Andale Mono",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 2,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
 										"subpatcher_template" : "lekton_snap",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-7",
@@ -7724,42 +7669,25 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
-															"revision" : 4,
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
 														"rect" : [ 31.0, 77.0, 209.0, 164.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
 														"default_fontname" : "Arial Bold",
 														"gridonopen" : 2,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 2,
 														"toptoolbarpinned" : 2,
 														"righttoolbarpinned" : 2,
 														"bottomtoolbarpinned" : 2,
 														"toolbars_unpinned_last_save" : 15,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
 														"subpatcher_template" : "PeteSubDefault10",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"background" : 1,
@@ -7771,7 +7699,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 100.0, 118.0, 31.0 ],
-																	"text" : ";\rmax launchbrowser $1"
+																	"text" : ";\r\nmax launchbrowser $1"
 																}
 
 															}
@@ -7804,12 +7732,8 @@
 ,
 													"patching_rect" : [ 167.5, 240.0, 71.0, 23.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
 														"fontname" : "Arial Bold",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p browser"
@@ -7977,11 +7901,7 @@
 ,
 									"patching_rect" : [ 585.0, 88.0, 53.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontname" : "Andale Mono",
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontname" : "Andale Mono"
 									}
 ,
 									"text" : "p helpUI"
@@ -7991,15 +7911,21 @@
 , 							{
 								"box" : 								{
 									"fontface" : 1,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 231.0, 380.0, 21.0 ],
-									"text" : "Connect a grid or arc and you should see it populate in this dropdown:",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "Connect a grid or arc and you should see it populate in this dropdown:"
 								}
 
 							}
@@ -8041,12 +7967,23 @@
 									"outlettype" : [ "", "", "int" ],
 									"outputmode" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 399.0, 196.0, 78.460002899169922, 22.400029182434082 ],
+									"patching_rect" : [ 399.0, 196.0, 80.368003845214844, 22.40000057220459 ],
+									"saved_attribute_attributes" : 									{
+										"textoncolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+,
+										"textovercolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
 									"text" : "grid studies",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "grid studies",
-									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+									"textovercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"usetextovercolor" : 1
 								}
 
@@ -8067,13 +8004,23 @@
 									"outlettype" : [ "", "", "int" ],
 									"outputmode" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 253.8759765625, 140.0, 189.1240234375, 22.400029182434082 ],
+									"patching_rect" : [ 253.8759765625, 140.0, 198.099990844726562, 22.40000057220459 ],
+									"saved_attribute_attributes" : 									{
+										"textoncolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+,
+										"textovercolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
 									"text" : "https://monome.org/docs/setup",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "https://monome.org/docs/setup",
-									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"usetextovercolor" : 1
+									"textoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+									"textovercolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 								}
 
 							}
@@ -8096,16 +8043,22 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
-									"fontname" : "Ableton Sans Medium",
+									"fontname" : "Lato",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 112.0, 514.0, 107.0 ],
-									"text" : "Hello!\n\nIf you haven't yet, be sure to install serialosc:\n\nThis help patcher will walk you through the contents of the monome-device Max Package.\n\nFor an exhaustive introduction to patching with grids in Max, please see: ",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"patching_rect" : [ 15.0, 112.0, 510.0, 107.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.theme_textcolor"
+										}
+
+									}
+,
+									"text" : "Hello!\n\nIf you haven't yet, be sure to install serialosc:\n\nThis help patcher will walk you through the contents of the monome-device Max Package.\n\nFor an exhaustive introduction to patching with grids in Max, please see: "
 								}
 
 							}
@@ -8114,7 +8067,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 3 ],
 									"hidden" : 1,
-									"midpoints" : [ 467.960002899169922, 220.0, 663.0, 220.0, 663.0, 84.0, 628.5, 84.0 ],
+									"midpoints" : [ 469.868003845214844, 220.0, 663.0, 220.0, 663.0, 84.0, 628.5, 84.0 ],
 									"source" : [ "obj-1", 2 ]
 								}
 
@@ -8190,7 +8143,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 1 ],
 									"hidden" : 1,
-									"midpoints" : [ 433.5, 162.0, 606.0, 162.0, 606.0, 120.0, 570.0, 120.0, 570.0, 75.0, 605.833333333333371, 75.0 ],
+									"midpoints" : [ 442.475967407226562, 162.0, 606.0, 162.0, 606.0, 120.0, 570.0, 120.0, 570.0, 75.0, 605.833333333333371, 75.0 ],
 									"source" : [ "obj-5", 2 ]
 								}
 
@@ -8199,7 +8152,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 2 ],
 									"hidden" : 1,
-									"midpoints" : [ 348.43798828125, 171.0, 569.0, 171.0, 569.0, 75.0, 617.166666666666629, 75.0 ],
+									"midpoints" : [ 352.925971984863281, 171.0, 569.0, 171.0, 569.0, 75.0, 617.166666666666629, 75.0 ],
 									"source" : [ "obj-5", 1 ]
 								}
 
@@ -8875,19 +8828,43 @@
 								"multi" : 0
 							}
  ],
-						"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"bgcolor" : 							{
+								"expression" : "themecolor.theme_bgcolor"
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : "themecolor.theme_editing_bgcolor"
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : "themecolor.live_surface_bg"
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 30.0, 75.0, 48.0, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : "themecolor.theme_editing_bgcolor"
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : "themecolor.live_surface_bg"
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"description" : "",
-						"digest" : "",
-						"fontname" : "Andale Mono",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-						"tags" : ""
+						"fontname" : "Lato",
+						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
 					}
 ,
 					"text" : "p hello!"
@@ -8903,55 +8880,22 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 690.0, 492.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [  ],
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 135.0, 210.0, 26.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
+					"patching_rect" : [ 135.0, 210.0, 26.0, 29.0 ],
 					"text" : "p ?"
 				}
 
@@ -8967,43 +8911,20 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 492.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
+						"rect" : [ 0.0, 26.0, 690.0, 492.0 ],
 						"default_fontname" : "Andale Mono",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 2,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "lekton_snap",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Ableton Sans Medium",
@@ -9013,7 +8934,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 221.0, 390.0, 50.0, 23.0 ],
+									"patching_rect" : [ 221.0, 390.0, 51.0, 23.0 ],
 									"text" : "rows $1"
 								}
 
@@ -9041,6 +8962,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 423.5, 165.0, 35.0 ],
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
 									"text" : "monitor hardware serialosc messages in the Max Console"
 								}
 
@@ -9055,8 +8983,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 330.0, 225.0, 258.0, 258.0 ],
-									"rows" : 16
+									"patching_rect" : [ 330.0, 225.0, 258.0, 130.0 ],
+									"rows" : 8
 								}
 
 							}
@@ -9099,8 +9027,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 75.0, 591.0, 122.0 ],
-									"text" : "GRID TEST\n\n1. Connect a grid and you should see it populate in the dropdown UI. Once you select it, the [matrixctrl] will auto-resize to the selected grid's dimensions.\n\n2. Press some keys on your grid! You'll see them light up on the physical device and display on this virtual grid.\n\n3. Press some keys on this virtual grid! You'll see them light up on the physical device.",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"saved_attribute_attributes" : 									{
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg"
+										}
+
+									}
+,
+									"text" : "GRID TEST\n\n1. Connect a grid and you should see it populate in the dropdown UI. Once you select it, the [matrixctrl] will auto-resize to the selected grid's dimensions.\n\n2. Press some keys on your grid! You'll see them light up on the physical device and display on this virtual grid.\n\n3. Press some keys on this virtual grid! You'll see them light up on the physical device."
 								}
 
 							}
@@ -9152,7 +9086,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 315.0, 181.0, 23.0 ],
+									"patching_rect" : [ 60.0, 315.0, 183.0, 23.0 ],
 									"text" : "/grid-test/grid/led/set $1 $2 $3"
 								}
 
@@ -9167,7 +9101,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 30.0, 261.0, 142.0, 23.0 ],
+									"patching_rect" : [ 30.0, 261.0, 145.0, 23.0 ],
 									"text" : "route /grid-test/grid/key"
 								}
 
@@ -9923,19 +9857,43 @@
 								"multi" : 0
 							}
  ],
-						"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"bgcolor" : 							{
+								"expression" : "themecolor.theme_bgcolor"
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : "themecolor.theme_editing_bgcolor"
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : "themecolor.live_surface_bg"
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 45.0, 103.0, 72.0, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : "themecolor.theme_editing_bgcolor"
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : "themecolor.live_surface_bg"
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Andale Mono",
-						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-						"tags" : ""
+						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
 					}
 ,
 					"text" : "p \"grid test\""
@@ -9977,6 +9935,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : ".maxsnap",
+				"bootpath" : "~/OneDrive/Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -9984,15 +9949,15 @@
 			}
 , 			{
 				"name" : "monome-device.js",
-				"bootpath" : "~/Max 8/Packages/monome/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/monome/patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 9/Packages/monome/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monome-device.maxpat",
-				"bootpath" : "~/Max 8/Packages/monome/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/monome/patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 9/Packages/monome/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
