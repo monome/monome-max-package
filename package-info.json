@@ -1,10 +1,10 @@
 {
 	"name" : "monome",
 	"displayname" : "monome",
-	"version" : "1.1.0",
+	"version" : "1.2.0",
 	"author" : "monome",
-	"authors" : [ "Brian Crabtree", "Dan Derks" ],
-	"description" : "Tools for using adaptable hardware interfaces in Max and RNBO. Includes examples and in-depth tutorials for grids, crow, and arc.",
+	"authors" : [ "Brian Crabtree", "Dani Derks" ],
+	"description" : "Tools for using adaptable hardware interfaces in Max and RNBO. Includes examples and in-depth tutorials for grids, arc, and crow.",
 	"tags" : [ "hardware", "grid", "crow", "arc", "eurorack", "serialosc" , "rnbo"],
 	"website" : "https://monome.org/",
 	"extends" : "",
